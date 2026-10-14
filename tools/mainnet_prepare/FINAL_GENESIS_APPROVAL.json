@@ -1,0 +1,20 @@
+{
+  "format": "PC_FINAL_GENESIS_OWNER_APPROVAL_V1",
+  "status": "OWNER_APPROVED_FINAL_GENESIS",
+  "decision_date": "2026-10-14",
+  "genesis_hash": "6233402308514d2d979a9efa9c6bd2f9843741598f1e5b18239cde16ba0d2b54",
+  "canonical_size": 949,
+  "canonical_sha256": "ada8aa42012556f8a045e212d94fffaec47ebccc345900216539d4cdb36a6001",
+  "artifact_sha256": "7c43e779b46da9472c7588cba4b2fef823aa2ef61fc3956c7471f04afad46555",
+  "recipient_sha256": "c405c6529043fa287d61eead0a6c2ad6b6a1020c9acf2e414957ec3efe643069",
+  "specification_sha256": "67036217d08417ca8d996f2fd807d0a171b5d849e53fb7901225feeffddbaa04",
+  "approved_policy_file_sha256": "a398624590f31b503cdea9590c501bc54a57e269ae66d1200daf4cf0ba6bbdc2",
+  "founder_recipient_approval_sha256": "9088bbb8e1d9df95ef795c09006ec9ebb4e1b9e3c9396124dbd35319842d515f",
+  "ownership_evidence_classification": "OWNER_REPORTED",
+  "original_and_recovered_wallet_checks": "OWNER_LOCAL_17_OUTPUTS_AND_SPEND_AUTHORITY_PASS",
+  "physically_independent_backup": false,
+  "temporary_single_computer_custody_risk": "OWNER_ACCEPTED",
+  "publication_authorized": false,
+  "mainnet_activation_authorized": false,
+  "independent_security_review": false
+}

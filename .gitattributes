@@ -1,0 +1,23 @@
+* text=auto
+/scripts/phase2/privacycoin-wallet text eol=lf
+/scripts/phase3/privacycoin-wallet text eol=lf
+/scripts/phase4/privacycoin-wallet text eol=lf
+/scripts/phase5b/privacycoin-wallet text eol=lf
+/scripts/phase6a/privacycoin-wallet text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+/docs/research/cryptographic-dependencies.json text eol=lf
+*.inc text eol=lf
+# Hash-locked evidence must retain original bytes across Git checkouts.
+docs/evidence/** -text
+# License and vendor hashes bind upstream bytes, not checkout line endings.
+docs/network-v1/third-party/licenses/** -text
+experiments/sphlib/vendor/** -text
+experiments/sphlib/adapters/** text eol=lf

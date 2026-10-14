@@ -1,0 +1,9 @@
+Upstream source: src/crypto/chacha.c
+Source SHA-256: 1fc6c1beea32c87b8fdbbbb6fadbf22e37d089f4e16ce59867ecf375b33e573d
+Verbatim source comment notices follow; no new license grant is asserted.
+
+/*
+chacha-merged.c version 20080118
+D. J. Bernstein
+Public domain.
+*/

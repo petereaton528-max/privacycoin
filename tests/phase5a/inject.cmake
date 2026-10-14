@@ -1,0 +1,8 @@
+include("${CMAKE_CURRENT_LIST_DIR}/../phase4/inject.cmake")
+function(privacycoin_phase5a_targets)
+  add_executable(privacycoin-sync-research "${CMAKE_CURRENT_FUNCTION_LIST_DIR}/../../src/phase5a/scan.cpp")
+  set_target_properties(privacycoin-sync-research PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED YES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/phase5a")
+  target_include_directories(privacycoin-sync-research PRIVATE "${CMAKE_SOURCE_DIR}/src")
+  target_link_libraries(privacycoin-sync-research PRIVATE cryptonote_core ringct sodium)
+endfunction()
+cmake_language(DEFER CALL privacycoin_phase5a_targets)

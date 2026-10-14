@@ -1,0 +1,72 @@
+{
+  "scope": "EXACT_INCLUDED_STANDALONE_NOTICES_AND_DYNAMIC_HOST_DEPENDENCIES",
+  "audited_archive_sha256": "79d9316efd240b09b37fb615380b82053f0a0021510e5d40a0c2c29a4f5916b9",
+  "included_upstream_notices_sha256": {
+    ".upstream/monero/LICENSE": "c2fe351163f4e0cee45d38e9481f2ea60f3cb77b24f818c4a2c740383f2f4cb2",
+    ".upstream/monero/contrib/epee/LICENSE.txt": "2a81658817c1928a0e1cbfdf0c44ffcb007482f65b605c4dc3b595ef377cffc6",
+    ".upstream/monero/external/db_drivers/liblmdb/COPYRIGHT": "fae797823b892c4b59913256b4d10b17d71f57d4bc45e46d901b84fd6dfc3d13",
+    ".upstream/monero/external/db_drivers/liblmdb/LICENSE": "310fe25c858a9515fc8c8d7d1f24a67c9496f84a91e0a0e41ea9975b1371e569",
+    ".upstream/monero/external/randomx/LICENSE": "7d85758a95990168395d0940b2a103b6be0c2eba3995f00cbb59d23a86c2214e",
+    ".upstream/monero/external/rapidjson/bin/jsonschema/LICENSE": "837402bd25fad9b704265801ca3f92566a98157c1f9a7acd6f446299ba1c305a",
+    ".upstream/monero/external/rapidjson/contrib/natvis/LICENSE": "394faaedb93c1da8ecbd61322518834908fee64381117e01a611bf9fac20baa6",
+    ".upstream/monero/external/rapidjson/license.txt": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32",
+    ".upstream/monero/external/rapidjson/thirdparty/gtest/googlemock/LICENSE": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+    ".upstream/monero/external/rapidjson/thirdparty/gtest/googlemock/scripts/generator/LICENSE": "5e0df8c845c742e76f2f64d2d9ce1b7e74a2422fddbc577ae6a56319083de0bf",
+    ".upstream/monero/external/rapidjson/thirdparty/gtest/googletest/LICENSE": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+    ".upstream/monero/external/trezor-common/COPYING": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    ".upstream/monero/external/trezor-common/defs/ethereum/tokens/LICENSE": "b3b967a2ccd3dea2ef7152b1a96741488e1d82546d6fe1f96e8f5fca28efb1a9",
+    ".upstream/monero/tests/gtest/LICENSE": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+  },
+  "runtime_copyright": {
+    "libboost-filesystem1.83.0": {
+      "source": "/usr/share/doc/libboost-filesystem1.83.0/copyright",
+      "sha256": "87ff229c71d391f951383b2246ba630c849e2024ea42a2ac9113dc9646f1e667",
+      "bundled_binary": false
+    },
+    "libboost-thread1.83.0": {
+      "source": "/usr/share/doc/libboost-thread1.83.0/copyright",
+      "sha256": "87ff229c71d391f951383b2246ba630c849e2024ea42a2ac9113dc9646f1e667",
+      "bundled_binary": false
+    },
+    "libsodium23": {
+      "source": "/usr/share/doc/libsodium23/copyright",
+      "sha256": "10d3576a7a0af8afb5601f358c06eb8c24b02192bb71ed4fb9a328a0979ec74b",
+      "bundled_binary": false
+    },
+    "libunbound8": {
+      "source": "/usr/share/doc/libunbound8/copyright",
+      "sha256": "fd65f127a23f4a63606866d1745cc69db39f48e12c7f738aa2dd4c618ee0e87b",
+      "bundled_binary": false
+    },
+    "libevent-2.1-7t64": {
+      "source": "/usr/share/doc/libevent-2.1-7t64/copyright",
+      "sha256": "d32d223a2f96bb222faa1f6d2b4573b512465b2b234f56e040a4d7daab060d69",
+      "bundled_binary": false
+    },
+    "libssl3t64": {
+      "source": "/usr/share/doc/libssl3t64/copyright",
+      "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+      "bundled_binary": false
+    },
+    "libc6": {
+      "source": "/usr/share/doc/libc6/copyright",
+      "sha256": "d3c95b56fa33e28b57860580f0baf4e4f4de2a268a2b80f1d031a5191bade265",
+      "bundled_binary": false
+    },
+    "libstdc++6": {
+      "source": "/usr/share/doc/libstdc++6/copyright",
+      "sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "bundled_binary": false
+    },
+    "libgcc-s1": {
+      "source": "/usr/share/doc/libgcc-s1/copyright",
+      "sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "bundled_binary": false
+    }
+  },
+  "missing_runtime_notices": [],
+  "embedded_notices": "RETAINED_IN_INCLUDED_SOURCE; NO_BLANKET_LICENSE_INFERENCE",
+  "project_license": "OWNER_GRANT_UNAVAILABLE_PUBLIC_DISTRIBUTION_BLOCKED",
+  "tor_binary": "NOT_BUNDLED; SYSTEM_TOR_PREREQUISITE",
+  "legal_approval": "NOT_CLAIMED; LICENSE_PROVENANCE_RETAINS_PER_COMPONENT_TERMS"
+}

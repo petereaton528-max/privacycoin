@@ -1,0 +1,525 @@
+{
+  "dynamic": [
+    {
+      "file": "runtime/lib/libcrypt.so.1",
+      "sha256": "1502636e3be8232c9cf801dfb533694aea985d449904f3e1295db26d7b348946",
+      "license": "LGPL-2.1-or-later",
+      "notice": "runtime/notices/libcrypt1_amd64.txt",
+      "notice_sha256": "5a5e7ca0e9f3f9679977e3a3e9ede45ad92885a3297ea78e766979f9866c5a16",
+      "source_package": "libxcrypt",
+      "source_version": "1:4.4.36-4build1",
+      "source_record": {
+        "source": "libxcrypt",
+        "version": "1:4.4.36-4build1",
+        "binary_packages": [
+          "libcrypt1"
+        ],
+        "suite": "noble",
+        "files": [
+          {
+            "file": "libxcrypt_4.4.36-4build1.dsc",
+            "sha256": "68df46e1ca34983971acc5490a3eec493c6e88cdf4868acdcafba2831e910d78",
+            "size": 2300,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.4.36-4build1.dsc"
+          },
+          {
+            "file": "libxcrypt_4.4.36.orig.tar.xz",
+            "sha256": "7b7abbc89f13f5194211aa6861ed954e4fa3a210a4cb64f7e13dc8cf413e7f2a",
+            "size": 392732,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.4.36.orig.tar.xz"
+          },
+          {
+            "file": "libxcrypt_4.4.36-4build1.debian.tar.xz",
+            "sha256": "b75925e5d2c40abab99f8078c40f2a666125067b080466a38eb670730188ca4a",
+            "size": 8356,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxcrypt/libxcrypt_4.4.36-4build1.debian.tar.xz"
+          }
+        ],
+        "index_sha256": "4f8e45d8f84dd2a6b7ce87695c70336114b9e96e6fd6db066c115f758e39308e",
+        "release_sha256": "cdb2f31d809f589719a53c6ad15f255b27569c4059542ada282aaa21b8e164b0",
+        "signature_verified": true
+      },
+      "consumers": [
+        "runtime/python/lib/python3.12/lib-dynload/_crypt.cpython-312-x86_64-linux-gnu.so"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libgcrypt.so.20",
+      "sha256": "6ad6d7007ee1ad8319eb18ba9a512cf09dda49396a303774c68b47477020bad4",
+      "license": "LGPL-2.1-or-later",
+      "notice": "runtime/notices/libgcrypt20_amd64.txt",
+      "notice_sha256": "40162167dff80843a4b24aa8d0a4ffc50be5338d004ebe38f86ae3397ba9de3e",
+      "source_package": "libgcrypt20",
+      "source_version": "1.10.3-2ubuntu0.2",
+      "source_record": {
+        "source": "libgcrypt20",
+        "version": "1.10.3-2ubuntu0.2",
+        "binary_packages": [
+          "libgcrypt20"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "libgcrypt20_1.10.3.orig.tar.bz2",
+            "sha256": "8b0870897ac5ac67ded568dcfadf45969cfa8a6beb0fd60af2a9eadc2a3272aa",
+            "size": 3783827,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3.orig.tar.bz2"
+          },
+          {
+            "file": "libgcrypt20_1.10.3.orig.tar.bz2.asc",
+            "sha256": "f02a5f961b89c034a78decbb355ea5a8d9356df5a9636dec53ae548d7d814b14",
+            "size": 390,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3.orig.tar.bz2.asc"
+          },
+          {
+            "file": "libgcrypt20_1.10.3-2ubuntu0.2.debian.tar.xz",
+            "sha256": "8298a57538f427d3c1112f2d86e374dd8223156e06b403f5c7945dd3d86f2050",
+            "size": 66364,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3-2ubuntu0.2.debian.tar.xz"
+          },
+          {
+            "file": "libgcrypt20_1.10.3-2ubuntu0.2.dsc",
+            "sha256": "688df10bc9c90b241926470d1f12a4d5092157263a6c1555996c53bcf40ca7d1",
+            "size": 2914,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgcrypt20/libgcrypt20_1.10.3-2ubuntu0.2.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "runtime/lib/libsystemd.so.0"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libgpg-error.so.0",
+      "sha256": "6cb18a007bfcb623029f4528a36b46578fea7dc34c2b505b8e6e0d99e6348cd1",
+      "license": "LGPL-2.1-or-later",
+      "notice": "runtime/notices/libgpg-error0_amd64.txt",
+      "notice_sha256": "0250e9e7cbf6c68c2bd05b6db1ea684988f91cd95da69f2936064cf302729fe5",
+      "source_package": "libgpg-error",
+      "source_version": "1.47-3build2.1",
+      "source_record": {
+        "source": "libgpg-error",
+        "version": "1.47-3build2.1",
+        "binary_packages": [
+          "libgpg-error0"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "libgpg-error_1.47.orig.tar.bz2",
+            "sha256": "9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb",
+            "size": 1020862,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47.orig.tar.bz2"
+          },
+          {
+            "file": "libgpg-error_1.47.orig.tar.bz2.asc",
+            "sha256": "6ab547bf020761e1df80b08335773a91c345ff2c1344f15b1f7d195293ab21a5",
+            "size": 228,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47.orig.tar.bz2.asc"
+          },
+          {
+            "file": "libgpg-error_1.47-3build2.1.debian.tar.xz",
+            "sha256": "f02a079a6ddf9930659c3402820b6bd190687e8f1c223f340c965a9da74abcd5",
+            "size": 18776,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47-3build2.1.debian.tar.xz"
+          },
+          {
+            "file": "libgpg-error_1.47-3build2.1.dsc",
+            "sha256": "3c8abf463c9ade945fe2e9d87c4aa2bff0026964207b07e99432d9ef6d9436d8",
+            "size": 3007,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libgpg-error/libgpg-error_1.47-3build2.1.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "runtime/lib/libgcrypt.so.20"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libseccomp.so.2",
+      "sha256": "b4d9140a7797ccf3ac14f5d9d579b64f157111662940cb8330c632b11a8cea8e",
+      "license": "LGPL-2.1-only",
+      "notice": "runtime/notices/libseccomp2_amd64.txt",
+      "notice_sha256": "6da0653a365b80ab31478dbfe9e7c358e80d58b6d2b52b4e16b4dbb42d7d9f5c",
+      "source_package": "libseccomp",
+      "source_version": "2.5.5-1ubuntu3.1",
+      "source_record": {
+        "source": "libseccomp",
+        "version": "2.5.5-1ubuntu3.1",
+        "binary_packages": [
+          "libseccomp2"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "libseccomp_2.5.5.orig.tar.gz",
+            "sha256": "248a2c8a4d9b9858aa6baf52712c34afefcf9c9e94b76dce02c1c9aa25fb3375",
+            "size": 642445,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.5.5.orig.tar.gz"
+          },
+          {
+            "file": "libseccomp_2.5.5.orig.tar.gz.asc",
+            "sha256": "f3bf8a946020d3047581f11fe6ac71971a842115ddb362562b193861ef57d97b",
+            "size": 833,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.5.5.orig.tar.gz.asc"
+          },
+          {
+            "file": "libseccomp_2.5.5-1ubuntu3.1.debian.tar.xz",
+            "sha256": "ee1e79bc46f18a992ac80f349fdd5cfa0b5f2f6b298473b587c7cf5af89a8df6",
+            "size": 24484,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.5.5-1ubuntu3.1.debian.tar.xz"
+          },
+          {
+            "file": "libseccomp_2.5.5-1ubuntu3.1.dsc",
+            "sha256": "8039579c8cd02819d8246b40483d69e2113979b5acc5900d7206e0b4bebff392",
+            "size": 2838,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/libs/libseccomp/libseccomp_2.5.5-1ubuntu3.1.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "runtime/bin/tor"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libsystemd.so.0",
+      "sha256": "bdf59c828b547bcdbe7b3576c0810d9d9d2e982d8b61b365812542da6a4c4a99",
+      "license": "LGPL-2.1-or-later with retained component exceptions",
+      "notice": "runtime/notices/libsystemd0_amd64.txt",
+      "notice_sha256": "a7d06854714a1ca99f6dbd1a1641dde5bcf28635be149f6554449618f8f427f3",
+      "source_package": "systemd",
+      "source_version": "255.4-1ubuntu8.17",
+      "source_record": {
+        "source": "systemd",
+        "version": "255.4-1ubuntu8.17",
+        "binary_packages": [
+          "libsystemd0"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "systemd_255.4.orig.tar.gz",
+            "sha256": "96e75bd08c57ad401677456fb88ef54a9f05bb1695693013bc6ecce839640fd5",
+            "size": 14952427,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4.orig.tar.gz"
+          },
+          {
+            "file": "systemd_255.4-1ubuntu8.17.debian.tar.xz",
+            "sha256": "4695ff34f83b1f7e6e02bf3cfac2e2a44ac76b6cfc5a38c0081bac6919d547bb",
+            "size": 272596,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.17.debian.tar.xz"
+          },
+          {
+            "file": "systemd_255.4-1ubuntu8.17.dsc",
+            "sha256": "8e5f4e5a7b7ee457214be1efd1ea1d380186c38b146d8c98af5da0f625d3c396",
+            "size": 7324,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.17.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "runtime/bin/tor"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+      "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
+      "notice": "runtime/notices/libgcc-s1_amd64.txt",
+      "notice_sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "source_package": "gcc-14",
+      "source_version": "14.2.0-4ubuntu2~24.04.1",
+      "source_record": {
+        "source": "gcc-14",
+        "version": "14.2.0-4ubuntu2~24.04.1",
+        "binary_packages": [
+          "libgcc-s1",
+          "libstdc++6"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "gcc-14_14.2.0.orig.tar.gz",
+            "sha256": "768c314c11eeab56ccebb91eb42ec4a41122fa94f0d83400126401942622197b",
+            "size": 97158172,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0.orig.tar.gz"
+          },
+          {
+            "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+            "sha256": "cfece214c2fb790ef5f3baffb9a53e40618e7ae12d053610b251e94d77d08ade",
+            "size": 1950432,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz"
+          },
+          {
+            "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+            "sha256": "50950080874a6ec6780dd60c243e21d9cda9d736bb32bca98d16095d27cc01b5",
+            "size": 46930,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "build/monero-linux/phase2/privacycoin-wallet-crypto",
+        "build/monero-linux/phase4/privacycoin-hardened-crypto",
+        "build/monero-linux/phase4/privacycoin-hardened-devnet",
+        "build/network-v1/pc-public-tools",
+        "runtime/lib/libboost_chrono.so.1.83.0",
+        "runtime/lib/libboost_filesystem.so.1.83.0",
+        "runtime/lib/libboost_program_options.so.1.83.0",
+        "runtime/lib/libboost_serialization.so.1.83.0",
+        "runtime/lib/libboost_thread.so.1.83.0",
+        "runtime/lib/libstdc++.so.6"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    },
+    {
+      "file": "runtime/lib/libstdc++.so.6",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+      "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
+      "notice": "runtime/notices/libstdc++6_amd64.txt",
+      "notice_sha256": "20390f8a6f3b1e4d7cb45dd8652dabb259bbef688cbad839bcdb0b9ba7252f79",
+      "source_package": "gcc-14",
+      "source_version": "14.2.0-4ubuntu2~24.04.1",
+      "source_record": {
+        "source": "gcc-14",
+        "version": "14.2.0-4ubuntu2~24.04.1",
+        "binary_packages": [
+          "libgcc-s1",
+          "libstdc++6"
+        ],
+        "suite": "noble-updates",
+        "files": [
+          {
+            "file": "gcc-14_14.2.0.orig.tar.gz",
+            "sha256": "768c314c11eeab56ccebb91eb42ec4a41122fa94f0d83400126401942622197b",
+            "size": 97158172,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0.orig.tar.gz"
+          },
+          {
+            "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz",
+            "sha256": "cfece214c2fb790ef5f3baffb9a53e40618e7ae12d053610b251e94d77d08ade",
+            "size": 1950432,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz"
+          },
+          {
+            "file": "gcc-14_14.2.0-4ubuntu2~24.04.1.dsc",
+            "sha256": "50950080874a6ec6780dd60c243e21d9cda9d736bb32bca98d16095d27cc01b5",
+            "size": 46930,
+            "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gcc-14/gcc-14_14.2.0-4ubuntu2~24.04.1.dsc"
+          }
+        ],
+        "index_sha256": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+        "release_sha256": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+        "signature_verified": true
+      },
+      "consumers": [
+        "build/monero-linux/phase2/privacycoin-wallet-crypto",
+        "build/monero-linux/phase4/privacycoin-hardened-crypto",
+        "build/monero-linux/phase4/privacycoin-hardened-devnet",
+        "build/network-v1/pc-public-tools",
+        "runtime/lib/libboost_chrono.so.1.83.0",
+        "runtime/lib/libboost_filesystem.so.1.83.0",
+        "runtime/lib/libboost_program_options.so.1.83.0",
+        "runtime/lib/libboost_serialization.so.1.83.0",
+        "runtime/lib/libboost_thread.so.1.83.0"
+      ],
+      "linkage": "Replaceable dynamic shared library",
+      "modified_by_project": false,
+      "source_delivery": "Exact acquired source+patches+vendor build rules in paired archive; equal-access cohosting required on any authorized distribution",
+      "sources_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+      "applicable_artifacts": [
+        "privacycoin-rc5-linux-no-readline-inspection.zip",
+        "privacycoin-rc5-windows-wsl2-no-readline-inspection.zip"
+      ]
+    }
+  ],
+  "static": [
+    {
+      "binary": "pc-public-tools.exe",
+      "sha256": "7449f706f93ec4198c895404ca481e11fd374e763a4037c63c762faf8cf15d9a",
+      "gnu_runtime_archives": [
+        "libgcc.a",
+        "libgcc_eh.a",
+        "libstdc++.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "license": "Covered GCC runtime objects: GPLv3 + exception 3.1; other archives retain their own licenses",
+      "legal_effect": "Recorded GCC compilation of independent modules; exception does not relicense arbitrary GNU code"
+    },
+    {
+      "binary": "privacycoin-hardened-devnet.exe",
+      "sha256": "52b6bae9e585c1d46f0a9a4a89ee5e320dfe799e56052ed0cc8374ddea84f671",
+      "gnu_runtime_archives": [
+        "libgcc.a",
+        "libgcc_eh.a",
+        "libstdc++.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "license": "Covered GCC runtime objects: GPLv3 + exception 3.1; other archives retain their own licenses",
+      "legal_effect": "Recorded GCC compilation of independent modules; exception does not relicense arbitrary GNU code"
+    },
+    {
+      "binary": "privacycoin-hardened-crypto.exe",
+      "sha256": "c219ecb0f22244b42bdc20e0447cb054009e68806e77a57d1c9f65eafb7e8d44",
+      "gnu_runtime_archives": [
+        "libgcc.a",
+        "libgcc_eh.a",
+        "libstdc++.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "license": "Covered GCC runtime objects: GPLv3 + exception 3.1; other archives retain their own licenses",
+      "legal_effect": "Recorded GCC compilation of independent modules; exception does not relicense arbitrary GNU code"
+    },
+    {
+      "binary": "privacycoin-wallet-crypto.exe",
+      "sha256": "9ea0b77a1f47967874f65d7a07f71cef3bf5c8e2aebd46afcb2d9a3bce561f87",
+      "gnu_runtime_archives": [
+        "libgcc.a",
+        "libgcc_eh.a",
+        "libstdc++.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "license": "Covered GCC runtime objects: GPLv3 + exception 3.1; other archives retain their own licenses",
+      "legal_effect": "Recorded GCC compilation of independent modules; exception does not relicense arbitrary GNU code"
+    },
+    {
+      "binary": "pc-tls-tools.exe",
+      "sha256": "01e738638e0d17199d70bb1a671d1a2916d2db2b5260a3287ea26084ef04e89c",
+      "gnu_runtime_archives": [
+        "libgcc.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "legal_effect": "Identical GCC relink of independent Tor/TLS modules; retained GNU exception applies to covered runtime objects only"
+    },
+    {
+      "binary": "tor.exe",
+      "sha256": "7507c3be3b298ee30878b39ac8e6a9610bf0793cea5ca75f3f7ed657d9c85b53",
+      "gnu_runtime_archives": [
+        "libgcc.a"
+      ],
+      "gettext_iconv_extracted_members": [],
+      "legal_effect": "Identical GCC relink of independent Tor/TLS modules; retained GNU exception applies to covered runtime objects only",
+      "map_sha256": "31159672e1a4608145e22dcf14b07eb817c62e79bbe0e35428685fa85d232ab5",
+      "correction": "Previous map covered UTF8-resource build8; archive contains build5 without that resource. New map covers exact delivered bytes."
+    }
+  ],
+  "source_archive": "privacycoin-rc5-gnu-corresponding-source-inspection.zip",
+  "source_archive_sha256": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d",
+  "source_members": {
+    "corresponding-source/corresponding-source/ACQUISITION.json": "4b33d38df2baa787fd9036900a1536f271f15539de2dbccd44e437e96a6a6b36",
+    "corresponding-source/corresponding-source/REQUIRED.json": "9c1340dfe13783f85b7b5b32a2ae10bc4f150aa3a5664393a0c9eca7933bf29a",
+    "corresponding-source/corresponding-source/gcc-14_14.2.0-4ubuntu2~24.04.1.debian.tar.xz": "cfece214c2fb790ef5f3baffb9a53e40618e7ae12d053610b251e94d77d08ade",
+    "corresponding-source/corresponding-source/gcc-14_14.2.0-4ubuntu2~24.04.1.dsc": "50950080874a6ec6780dd60c243e21d9cda9d736bb32bca98d16095d27cc01b5",
+    "corresponding-source/corresponding-source/gcc-14_14.2.0.orig.tar.gz": "768c314c11eeab56ccebb91eb42ec4a41122fa94f0d83400126401942622197b",
+    "corresponding-source/corresponding-source/libgcrypt20_1.10.3-2ubuntu0.2.debian.tar.xz": "8298a57538f427d3c1112f2d86e374dd8223156e06b403f5c7945dd3d86f2050",
+    "corresponding-source/corresponding-source/libgcrypt20_1.10.3-2ubuntu0.2.dsc": "688df10bc9c90b241926470d1f12a4d5092157263a6c1555996c53bcf40ca7d1",
+    "corresponding-source/corresponding-source/libgcrypt20_1.10.3.orig.tar.bz2": "8b0870897ac5ac67ded568dcfadf45969cfa8a6beb0fd60af2a9eadc2a3272aa",
+    "corresponding-source/corresponding-source/libgcrypt20_1.10.3.orig.tar.bz2.asc": "f02a5f961b89c034a78decbb355ea5a8d9356df5a9636dec53ae548d7d814b14",
+    "corresponding-source/corresponding-source/libgpg-error_1.47-3build2.1.debian.tar.xz": "f02a079a6ddf9930659c3402820b6bd190687e8f1c223f340c965a9da74abcd5",
+    "corresponding-source/corresponding-source/libgpg-error_1.47-3build2.1.dsc": "3c8abf463c9ade945fe2e9d87c4aa2bff0026964207b07e99432d9ef6d9436d8",
+    "corresponding-source/corresponding-source/libgpg-error_1.47.orig.tar.bz2": "9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb",
+    "corresponding-source/corresponding-source/libgpg-error_1.47.orig.tar.bz2.asc": "6ab547bf020761e1df80b08335773a91c345ff2c1344f15b1f7d195293ab21a5",
+    "corresponding-source/corresponding-source/libseccomp_2.5.5-1ubuntu3.1.debian.tar.xz": "ee1e79bc46f18a992ac80f349fdd5cfa0b5f2f6b298473b587c7cf5af89a8df6",
+    "corresponding-source/corresponding-source/libseccomp_2.5.5-1ubuntu3.1.dsc": "8039579c8cd02819d8246b40483d69e2113979b5acc5900d7206e0b4bebff392",
+    "corresponding-source/corresponding-source/libseccomp_2.5.5.orig.tar.gz": "248a2c8a4d9b9858aa6baf52712c34afefcf9c9e94b76dce02c1c9aa25fb3375",
+    "corresponding-source/corresponding-source/libseccomp_2.5.5.orig.tar.gz.asc": "f3bf8a946020d3047581f11fe6ac71971a842115ddb362562b193861ef57d97b",
+    "corresponding-source/corresponding-source/libxcrypt_4.4.36-4build1.debian.tar.xz": "b75925e5d2c40abab99f8078c40f2a666125067b080466a38eb670730188ca4a",
+    "corresponding-source/corresponding-source/libxcrypt_4.4.36-4build1.dsc": "68df46e1ca34983971acc5490a3eec493c6e88cdf4868acdcafba2831e910d78",
+    "corresponding-source/corresponding-source/libxcrypt_4.4.36.orig.tar.xz": "7b7abbc89f13f5194211aa6861ed954e4fa3a210a4cb64f7e13dc8cf413e7f2a",
+    "corresponding-source/corresponding-source/noble-InRelease": "cdb2f31d809f589719a53c6ad15f255b27569c4059542ada282aaa21b8e164b0",
+    "corresponding-source/corresponding-source/noble-main-Sources.xz": "4f8e45d8f84dd2a6b7ce87695c70336114b9e96e6fd6db066c115f758e39308e",
+    "corresponding-source/corresponding-source/noble-security-InRelease": "e44a0f5f9b22ab3f6438a7b2206c7780a29983cff2ebb5b3810bd222067936e1",
+    "corresponding-source/corresponding-source/noble-security-main-Sources.xz": "f0a6afdcb89e9625f044147abf5240c75c7c3e7e3dc2019571be94472e4ca634",
+    "corresponding-source/corresponding-source/noble-security-universe-Sources.xz": "167a09098a2ad8f583730f118fe89da4c606a0d058c3a0a5ea8b89a5c55ad8a0",
+    "corresponding-source/corresponding-source/noble-universe-Sources.xz": "796c4253df46fe9d0b468c5b18259f8d5172bf6c8b3b17451ba98ffc1781f682",
+    "corresponding-source/corresponding-source/noble-updates-InRelease": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+    "corresponding-source/corresponding-source/noble-updates-main-Sources.xz": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+    "corresponding-source/corresponding-source/noble-updates-universe-Sources.xz": "8f2b3f3a263a3e7078a94368fe25b41d4ad887a39729a7fa3d23049edf1aedf7",
+    "corresponding-source/corresponding-source/readline_8.2-4build1.debian.tar.xz": "d3b4bfa92d0026f5d3f5d2b21e2bf6d8ae163f9ccdebdcef20afde77901c7b70",
+    "corresponding-source/corresponding-source/readline_8.2-4build1.dsc": "442c688eb851652987a0b1a7f85d236c6fa445757f188bc275ec475d0fabf22f",
+    "corresponding-source/corresponding-source/readline_8.2.orig.tar.gz": "3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35",
+    "corresponding-source/corresponding-source/systemd_255.4-1ubuntu8.17.debian.tar.xz": "4695ff34f83b1f7e6e02bf3cfac2e2a44ac76b6cfc5a38c0081bac6919d547bb",
+    "corresponding-source/corresponding-source/systemd_255.4-1ubuntu8.17.dsc": "8e5f4e5a7b7ee457214be1efd1ea1d380186c38b146d8c98af5da0f625d3c396",
+    "corresponding-source/corresponding-source/systemd_255.4.orig.tar.gz": "96e75bd08c57ad401677456fb88ef54a9f05bb1695693013bc6ecce839640fd5",
+    "corresponding-source/python-corresponding-source/ACQUISITION.json": "c30b108e035b89dbd9c87db6bfb0883e1552a6233d7966006c2712a18126516a",
+    "corresponding-source/python-corresponding-source/REQUIRED.json": "675c1c9b72a1cc15b1eed4598f430f1210eef63cd7e6cf6277717aa365e1ad12",
+    "corresponding-source/python-corresponding-source/noble-InRelease": "cdb2f31d809f589719a53c6ad15f255b27569c4059542ada282aaa21b8e164b0",
+    "corresponding-source/python-corresponding-source/noble-main-Sources.xz": "4f8e45d8f84dd2a6b7ce87695c70336114b9e96e6fd6db066c115f758e39308e",
+    "corresponding-source/python-corresponding-source/noble-security-InRelease": "e44a0f5f9b22ab3f6438a7b2206c7780a29983cff2ebb5b3810bd222067936e1",
+    "corresponding-source/python-corresponding-source/noble-security-main-Sources.xz": "f0a6afdcb89e9625f044147abf5240c75c7c3e7e3dc2019571be94472e4ca634",
+    "corresponding-source/python-corresponding-source/noble-security-universe-Sources.xz": "167a09098a2ad8f583730f118fe89da4c606a0d058c3a0a5ea8b89a5c55ad8a0",
+    "corresponding-source/python-corresponding-source/noble-universe-Sources.xz": "796c4253df46fe9d0b468c5b18259f8d5172bf6c8b3b17451ba98ffc1781f682",
+    "corresponding-source/python-corresponding-source/noble-updates-InRelease": "2af20dddee96c1f72c5ad7177113956b39e0421e9fdbbc0fbb6bb1de76e6aff7",
+    "corresponding-source/python-corresponding-source/noble-updates-main-Sources.xz": "532c57390c1c0d2fc0b7a22158583a9b751676842690a6ce8608d17e35796012",
+    "corresponding-source/python-corresponding-source/noble-updates-universe-Sources.xz": "8f2b3f3a263a3e7078a94368fe25b41d4ad887a39729a7fa3d23049edf1aedf7",
+    "corresponding-source/python-corresponding-source/python3.12_3.12.3-1ubuntu0.17.debian.tar.xz": "17b15629cb10825924cf7b85055255080ec773133ae0f8b8ce5ea2eec90dd200",
+    "corresponding-source/python-corresponding-source/python3.12_3.12.3-1ubuntu0.17.dsc": "941700b999737d869b80c3b5a0adc0996a0fd760b982e18551bd2104da779384",
+    "corresponding-source/python-corresponding-source/python3.12_3.12.3.orig.tar.xz": "56bfef1fdfc1221ce6720e43a661e3eb41785dd914ce99698d8c7896af4bdaa1"
+  },
+  "local_delivery_prepared": true,
+  "public_access_verified": false,
+  "obligations": "Retain exact component terms, supply bound sources with equal access/no extra charge on authorized distribution, preserve LGPL replacement and debugging freedoms; exception limited to eligible GCC runtime code.",
+  "full_product_crypto_rights_cleared": false
+}

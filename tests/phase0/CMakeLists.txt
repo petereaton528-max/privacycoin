@@ -1,0 +1,10 @@
+add_executable(phase0_vectors "${CMAKE_CURRENT_LIST_DIR}/vectors.cpp")
+set_target_properties(phase0_vectors PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/phase0")
+target_include_directories(phase0_vectors PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../../src" "${CMAKE_SOURCE_DIR}/src" "${CMAKE_SOURCE_DIR}/external/randomx/src")
+target_link_libraries(phase0_vectors PRIVATE cryptonote_basic ringct randomx)
+
+add_executable(phase0_openalias "${CMAKE_CURRENT_LIST_DIR}/openalias.cpp")
+set_target_properties(phase0_openalias PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/phase0")
+target_include_directories(phase0_openalias PRIVATE "${CMAKE_SOURCE_DIR}/src" ${UNBOUND_INCLUDE_DIR})
+target_link_libraries(phase0_openalias PRIVATE cryptonote_basic common)
+target_link_options(phase0_openalias PRIVATE "-Wl,--wrap=ub_resolve" "-Wl,--wrap=ub_resolve_free")

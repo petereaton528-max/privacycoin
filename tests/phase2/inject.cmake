@@ -1,0 +1,5 @@
+include("${CMAKE_CURRENT_LIST_DIR}/../phase1/inject.cmake")
+function(privacycoin_phase2_targets)
+  include("${CMAKE_CURRENT_FUNCTION_LIST_DIR}/CMakeLists.txt")
+endfunction()
+cmake_language(DEFER CALL privacycoin_phase2_targets)

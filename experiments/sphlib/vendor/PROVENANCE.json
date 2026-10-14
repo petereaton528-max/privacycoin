@@ -1,0 +1,63 @@
+{
+  "commit": "15b6b8d8f3e4a43c58ba102d712fa6b8a3317035",
+  "license": "MIT",
+  "files": [
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/LICENSE",
+      "sha256": "1a5b46ad8c1367ce6b5c7b25e7beec6bfc87b0c98b9fdd4a7b9573c6dd1f0a1f",
+      "modified": false,
+      "distributed_sha256": "1a5b46ad8c1367ce6b5c7b25e7beec6bfc87b0c98b9fdd4a7b9573c6dd1f0a1f"
+    },
+    {
+      "upstream_path": "README.md",
+      "local_path": "README.md",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/README.md",
+      "sha256": "b43664108d4e24d557931d9cd540310880c94095352366eae7a2e887f5ebeca1",
+      "modified": false,
+      "distributed_sha256": "b43664108d4e24d557931d9cd540310880c94095352366eae7a2e887f5ebeca1"
+    },
+    {
+      "upstream_path": "c/jh.c",
+      "local_path": "jh_sph.c",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/c/jh.c",
+      "sha256": "b170783396835c430d7d2e546fbf5ddf02ac9eceffe89eba9945e2e126f81298",
+      "modified": true,
+      "distributed_sha256": "5a290750c99558d3167f6bb4f672bb031faac5b71c07054d335427cb020e0a7d",
+      "modification": "One padding-byte expression retains unused low bits for exact legacy one-shot API behavior. Canonical JH and all byte inputs unchanged; copyright and MIT permission retained."
+    },
+    {
+      "upstream_path": "c/keccak.c",
+      "local_path": "keccak_sph.c",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/c/keccak.c",
+      "sha256": "224f3c070a5ed2f3aaff9641644f9ded9f34d2dcce51bc8d39774a2ab842435e",
+      "modified": false,
+      "distributed_sha256": "224f3c070a5ed2f3aaff9641644f9ded9f34d2dcce51bc8d39774a2ab842435e"
+    },
+    {
+      "upstream_path": "c/sph_jh.h",
+      "local_path": "sph_jh.h",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/c/sph_jh.h",
+      "sha256": "6f572308e188bb0d607291c43f8491ffdd13eadb5329bea1ec81398b9b368d4f",
+      "modified": false,
+      "distributed_sha256": "6f572308e188bb0d607291c43f8491ffdd13eadb5329bea1ec81398b9b368d4f"
+    },
+    {
+      "upstream_path": "c/sph_keccak.h",
+      "local_path": "sph_keccak.h",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/c/sph_keccak.h",
+      "sha256": "c8617ba9fb8ebb5384d1a3c86d93da363d9c09a45280a34084ebd387f9ebb9e3",
+      "modified": false,
+      "distributed_sha256": "c8617ba9fb8ebb5384d1a3c86d93da363d9c09a45280a34084ebd387f9ebb9e3"
+    },
+    {
+      "upstream_path": "c/sph_types.h",
+      "local_path": "sph_types.h",
+      "url": "https://raw.githubusercontent.com/pornin/sphlib/15b6b8d8f3e4a43c58ba102d712fa6b8a3317035/c/sph_types.h",
+      "sha256": "0a87bd456362fef5f39f1b3541e9e7ecfc0305be2ea89d804fd4e65585b19db9",
+      "modified": false,
+      "distributed_sha256": "0a87bd456362fef5f39f1b3541e9e7ecfc0305be2ea89d804fd4e65585b19db9"
+    }
+  ]
+}

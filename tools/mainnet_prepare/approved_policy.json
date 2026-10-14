@@ -1,0 +1,65 @@
+{
+  "format": "PC_OWNER_POLICY_DECISION_V1",
+  "decision_date": "2026-10-14",
+  "authority": "Explicit owner instruction in this engineering session",
+  "approved": {
+    "atomic_units_per_pc": 1000000000000,
+    "target_seconds": 120,
+    "emission_reference_atomic": 18446744073709551615,
+    "emission_shift": 19,
+    "initial_subsidy_atomic": 35184372088831,
+    "tail_reward_atomic": 600000000000,
+    "eventual_supply_cap": null,
+    "creator_total_atomic": 159627169409884823,
+    "creator_liquid_atomic": 15962716940988482,
+    "creator_locked_atomic": 143664452468896341,
+    "vesting_interval": 65700,
+    "vesting_releases": 16,
+    "first_five_tranche_atomic": 8979028279306022,
+    "last_eleven_tranche_atomic": 8979028279306021,
+    "creator_issuance_once": true,
+    "creator_reduces_mining": false,
+    "recurring_creator_levy": false,
+    "mining_maturity": 60,
+    "ordinary_maturity": 10,
+    "ring_size": 16,
+    "production_v2_activation": null,
+    "platforms": ["linux-x86_64", "ubuntu-wsl2-wslg"]
+  },
+  "approved_fee_policy": {
+    "relay_atomic_per_byte": 100,
+    "wallet_default_atomic": 1000000000,
+    "consensus_min_atomic": 1,
+    "consensus_max_atomic": 1000000000000
+  },
+  "approved_naming": {
+    "currency": "Privacy Coin",
+    "symbol": "PC",
+    "public_network_name": "Privacy Coin Mainnet",
+    "human_network_identifier": "PrivacyCoinMainnet",
+    "protocol_namespace": "PrivacyCoin/Mainnet/V1"
+  },
+  "decision_notes": [
+    "The 2026-10-14 follow-up owner instruction approves fees and human naming, not immutable binary encodings.",
+    "Relay minimum is local node admission/relay policy; consensus permits positive fees below that floor.",
+    "Wallet default is subject to serialized transaction size. Existing resource limits are retained.",
+    "The approved monetary object is unchanged to preserve its existing commitment. Binding configurations also commit the fee values."
+  ],
+  "approved_production_identity": {
+    "status": "OWNER_APPROVED_FINAL_IDENTITY",
+    "decision_date": "2026-10-14",
+    "authority": "Explicit owner approval of this exact SHA-256 in the project conversation",
+    "specification": "tools/mainnet_prepare/production_identity_proposal.json",
+    "sha256": "67036217d08417ca8d996f2fd807d0a171b5d849e53fb7901225feeffddbaa04",
+    "scope": ["16-byte network magic", "network and cryptographic domains", "retained DRAFT/CANDIDATE compatibility identifiers", "293-character address format", "wallet recovery and Genesis-binding conventions"],
+    "changes_require": "Separate explicit protocol decision",
+    "note": "Detached approval preserves the exact specification bytes, including its historical approved:false and launchable:false fields. It does not authorize key generation or network activation."
+  },
+  "pending": {
+    "founder_public_recipient": null,
+    "production_genesis_bytes_and_hash": null,
+    "founder_key_generation": null,
+    "publication": null,
+    "mainnet_activation": null
+  }
+}

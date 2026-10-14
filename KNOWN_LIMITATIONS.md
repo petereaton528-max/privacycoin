@@ -1,0 +1,18 @@
+# Known security limitations
+
+AI-assisted internal review only. No independent third-party security audit has been performed.
+
+### Noncritical findings and material UNKNOWN risks (not waived)
+
+1. MEDIUM availability/resource limitation: ledger cleanup_pool removes expired pool entries but retains their uncommitted transaction bodies/staging entries until confirmation or process reload. Staging has an 8192-entry cap, so retention is finite (at most roughly 409.6 MB raw bodies plus overhead), but a prolonged unconfirmed workload can consume that capacity and reject new imports. Source path is confirmed; sustained remote exploitation and real-time exhaustion were not reproduced. Fees are not paid for never-confirmed valid transactions. This is not an inflation bypass. Do not advertise indefinite unattended hostile-load resilience. Normal quiescent node restart/reload preserves committed chain and persisted eligible pool, but is an operational mitigation, not a code fix. Reclassify and stop release if realistic testing establishes a cheaply repeatable high-impact remote attack.
+2. PRIVACY UNKNOWN: wallet decoys are uniformly sampled from eligible outputs in phase4/wallet.py, not a demonstrated production spend-age model. Early sparse activity, known founder/coinbase amounts, timing, change and decoy correlations can reduce anonymity. Ring size 16 does not prove sixteen equally plausible spenders. No quantified anonymity guarantee is supportable. No new sampler or immutable cryptographic change is introduced here.
+3. NETWORK UNKNOWN: cheap fresh identities, finite peer slots, shared native request serialization and long-chain inventory work may still permit censorship, eclipse or resource exhaustion. Invalid proofs cost no paid fee. Rate limits mitigate specific paths but do not certify an Internet-scale adversary model.
+4. CRYPTO/CONSENSUS UNKNOWN: no independent proof-system integration audit, extended sanitizer/fuzz campaign, formal verification or independent compiler rebuild. Hidden parsing, integer, concurrency or dependency flaws could be critical. The fixed transaction nonce is a public domain marker; native transaction construction retains independent randomness.
+5. WALLET/OPERATIONS: loopback RPC trusts the local host and is not authenticated against hostile local processes. Do not expose RPC or share an unlocked wallet host with untrusted software. UNKNOWN transactions must be reconciled, never blindly retried. Backups from before a payment cannot know its later journal. Multi-file recovery is not an atomic filesystem transaction; preserve original backup and use a fresh destination after an interruption.
+6. CUSTODY: founder's two restored backups and 17-output proofs are OWNER-REPORTED; both backups are on one physical computer. Physical disaster independence remains unverified and risk was explicitly accepted. No custody files were inspected.
+7. RELEASE: unsigned distribution, trust bootstrap for signing fingerprints, seed availability/diversity and incident response are operational prerequisites. Native Windows is unsupported; supported platforms are Linux x86-64 and Ubuntu WSL2/WSLg. No profitability, market value or privacy certification is promised.
+
+These are disclosed constraints/unknowns, not an automatic paid-audit veto. The owner must explicitly accept the stated risk envelope or defer release. Any subsequently confirmed CRITICAL/HIGH finding invalidates this conditional recommendation until fixed and retested; disclosure alone does not fix it.
+
+
+Owner accepted these disclosed risks; this does not certify safety. Mainnet activation remains unauthorized.

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-14",
+  "authorization": "Explicit owner authorization to publish reviewed RC1 to this public repository; not Mainnet activation",
+  "repository": "https://github.com/petereaton528-max/privacycoin",
+  "version": "1.0.0-mainnet-rc1",
+  "tag": "v1.0.0-mainnet-rc1",
+  "official_fingerprint": "8BB1C05FC06715B93E80ED0B2B5E024E03ACBF0D",
+  "reviewed_stage_sha256": "48532d5780537903876653eb2f3caf94553399fd0a18b28506a8481c5d439bb6",
+  "publication_authorized": true,
+  "mainnet_activation_authorized": false,
+  "private_key_accessed": false,
+  "signature_scope": "Only the three original ZIP archives through exact signed SHA256SUMS; supplemental public documents unsigned"
+}

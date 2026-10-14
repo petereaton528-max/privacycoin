@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Coin Network</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+<body><header><span class="mark">PC</span><div><h1>Privacy Coin Network</h1><p>开放隐私区块链 · CPU PoW · PC 原生资产</p></div><span class="badge">V1 工程候选版</span></header>
+<main><section class="notice"><h2>公开发布仍被阻塞</h2><p>当前网络属于开发测试配置。双机功能验收来自操作员报告；恢复、安全审计和公开网络门槛仍未关闭。没有主网价值、成熟去中心化或全球链新鲜度承诺。</p></section>
+<section><h2>网络状态</h2><pre id="network">正在读取本地索引…</pre><button id="refresh">刷新</button><p id="error" role="status"></p></section>
+<section><h2>区块浏览器</h2><p>原生 PC 计量采用 10¹² 原子单位。区块奖励包括费用，不代表净发行量。</p><table><thead><tr><th>高度</th><th>区块</th><th>UTC 时间</th><th>奖励（原子单位）</th></tr></thead><tbody id="blocks"></tbody></table></section>
+<section><h2>自愿公开出块成绩</h2><p>只统计已证明控制 coinbase 输出的自愿别名。它不证明实际矿工身份或算力；公开关联会降低该输出的隐私。</p><label>UTC 日期 <input id="day" type="date"></label><button id="daily">查询每日榜</button><button id="total">历史总榜</button><pre id="rank"></pre></section>
+<section><h2>开发者与客户端</h2><p>Python SDK：apps/network_v1/sdk.py。只读 API：/api/v1/network、/blocks、/leaderboard。支付示例通过私有本地适配器复用已实现的 Provider 观察及 Client 防重机制。</p><p>安装、挖矿、备份和示例见发行包 docs/network-v1。未验证的二进制不提供虚构下载链接。没有任意智能合约或代币发行接口。</p><a href="/api/v1/capabilities">接口能力清单</a></section></main><footer>独立索引可重建 · 网站故障不影响共识 · 无第三方脚本或跟踪器</footer></body></html>

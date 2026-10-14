@@ -1,0 +1,13 @@
+Upstream source: src/crypto/skein.c
+Source SHA-256: 96bdda389bcb9b87811f52c33b74840bd38f4900f8dc163ed358704e32a805c2
+Verbatim source comment notices follow; no new license grant is asserted.
+
+/***********************************************************************
+**
+** Implementation of the Skein hash function.
+**
+** Source code author: Doug Whiting, 2008.
+**
+** This algorithm and source code is released to the public domain.
+** 
+************************************************************************/

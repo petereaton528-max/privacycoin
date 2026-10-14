@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "project_license": "BSD-3-Clause",
+  "owner_license_approved": true,
+  "copyright": "Copyright (c) 2026 petereaton528-max",
+  "scope": "Original eligible contributions only; retain component exceptions",
+  "kind": "source",
+  "required_document_sha256": {
+    "LICENSE": "1c0f0da4a4b48893cd83d81a21db76c48d3dd8a4d370da12524d1e670ecc9899",
+    "LICENSE_SCOPE.md": "ccf872c92be79cd773856d56a31833f9b4e051c1dff531047ca05c68f38cfb74",
+    "CONTRIBUTING.md": "a06ddc4874e9b0911fde5244cf3b6976cc76aa8ac136a86e7da3724309067412",
+    "docs/network-v1/LICENSE_STATUS.md": "f8155c459182a4dc761881ec7a4c946e105212e6fac8756d9a7919769e9ed2eb",
+    "docs/network-v1/LICENSE_INVENTORY.json": "7d0455028c48bc561c56237dfe6e9d60ad9b04f322d25c11be6a1d782a461307",
+    "docs/network-v1/THIRD_PARTY_NOTICES.md": "7454157f4521913c4d01cfc64e2c8bd5d3f9365130dd2210540acf5fcbe1d2ce",
+    "docs/network-v1/REDISTRIBUTION.md": "abb5827e4549ea9100499009736fb790ad4a9950217b1d33a962c4240a77edd9",
+    "docs/network-v1/third-party/licenses/GPL-2.txt": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "docs/network-v1/third-party/licenses/GPL-3.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "docs/network-v1/third-party/licenses/LGPL-2.1.txt": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+    "docs/network-v1/third-party/licenses/LGPL-3.txt": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+    "docs/network-v1/third-party/licenses/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "redistribution_ready": true,
+  "unresolved": [],
+  "public_release_authorized": false,
+  "legal_clearance_claimed": false
+}

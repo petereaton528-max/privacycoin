@@ -1,0 +1,1624 @@
+{
+  "baseline": "52937d57367ad9548b01b12a2f2427218ec5d1ee",
+  "rows": [
+    {
+      "path": ".upstream/monero/src/crypto/jh.c",
+      "sha256": "df9ff5fa646179e984baf03fbf4be9914893e6900b9f7223d7a115c952df72d3",
+      "git_blob_sha1": "738c681f8497a1b3a3e4b698efb09f8f1f7c0877",
+      "selected_repository": "https://github.com/monero-project/monero",
+      "selected_commit": "22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0",
+      "local_copy_matches_pinned_raw": true,
+      "source_url": "https://raw.githubusercontent.com/monero-project/monero/22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0/src/crypto/jh.c",
+      "complete_path_history": [
+        {
+          "commit": "296ae46ed8f8f6e5f986f978febad302e3df231a",
+          "date": "2014-03-03T22:07:58Z",
+          "subject": "moved all stuff to github",
+          "file_delta": {
+            "sha": "12d53637547f83b891f8d56e78faf192f80ed598",
+            "status": "added",
+            "additions": 367,
+            "deletions": 0
+          },
+          "patch_sha256": null,
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "e7d51e558326e5d9621189ec1c801acdf36f0fda",
+          "date": "2023-10-27T12:09:58Z",
+          "subject": "JH hash compiler workarounds",
+          "file_delta": {
+            "sha": "738c681f8497a1b3a3e4b698efb09f8f1f7c0877",
+            "status": "modified",
+            "additions": 13,
+            "deletions": 4
+          },
+          "patch_sha256": "55ea7bfca75f787664c3fd20efeb94dbe16b8d9b30695ffe50d0c0679f83e63a",
+          "note": "Exact upstream commit/file change record acquired"
+        }
+      ],
+      "history_limit": "All returned entries (<100) at pinned commit; no history before original import established",
+      "initial_import_comparison": {
+        "left_sha256": "c25e2c3a29462b701579965c7067b5db3d55adb40c4060d2e1c23171b7f31328",
+        "right_sha256": "df9ff5fa646179e984baf03fbf4be9914893e6900b9f7223d7a115c952df72d3",
+        "left_lines": 367,
+        "right_lines": 376,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "replace",
+            "left": [
+              36,
+              37
+            ],
+            "right": [
+              36,
+              37
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              215,
+              216
+            ],
+            "right": [
+              215,
+              216
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              218,
+              219
+            ],
+            "right": [
+              218,
+              223
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              224,
+              225
+            ],
+            "right": [
+              228,
+              233
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              242,
+              242
+            ],
+            "right": [
+              250,
+              251
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "cryptonote_comparison": {
+        "left_sha256": "c25e2c3a29462b701579965c7067b5db3d55adb40c4060d2e1c23171b7f31328",
+        "right_sha256": "df9ff5fa646179e984baf03fbf4be9914893e6900b9f7223d7a115c952df72d3",
+        "left_lines": 367,
+        "right_lines": 376,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "replace",
+            "left": [
+              36,
+              37
+            ],
+            "right": [
+              36,
+              37
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              215,
+              216
+            ],
+            "right": [
+              215,
+              216
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              218,
+              219
+            ],
+            "right": [
+              218,
+              223
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              224,
+              225
+            ],
+            "right": [
+              228,
+              233
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              242,
+              242
+            ],
+            "right": [
+              250,
+              251
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "owner_relicense": false,
+      "redistribution_permission_verified": false,
+      "author": "Hongjun Wu, optimized ANSI C 64-bit, 2011-01-16",
+      "author_source_sha256": "ad070fe394476aed97ca3ba84dc023fa61186d1da13b72545599715d141db297",
+      "author_comparison": {
+        "left_sha256": "ad070fe394476aed97ca3ba84dc023fa61186d1da13b72545599715d141db297",
+        "right_sha256": "c25e2c3a29462b701579965c7067b5db3d55adb40c4060d2e1c23171b7f31328",
+        "left_lines": 369,
+        "right_lines": 367,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "insert",
+            "left": [
+              15,
+              15
+            ],
+            "right": [
+              15,
+              16
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              16,
+              17
+            ],
+            "right": [
+              17,
+              18
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              19,
+              24
+            ],
+            "right": [
+              20,
+              22
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              94,
+              96
+            ],
+            "right": [
+              92,
+              94
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              98,
+              102
+            ],
+            "right": [
+              96,
+              100
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              154,
+              155
+            ],
+            "right": [
+              152,
+              153
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              215,
+              216
+            ],
+            "right": [
+              213,
+              214
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              230,
+              231
+            ],
+            "right": [
+              228,
+              229
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              252,
+              253
+            ],
+            "right": [
+              250,
+              251
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              300,
+              301
+            ],
+            "right": [
+              298,
+              299
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              356,
+              357
+            ],
+            "right": [
+              354,
+              355
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "modification_summary": "CryptoNote splits header/implementation, renames Hash to jh_hash, adds project/platform includes and alignment. Monero 2023 aligns buffer, replaces aliasing loads with memcpy and initializes default hash-size branch.",
+      "missing_permission": "A software copyright grant for optimized JH ANSI C implementation, beyond public availability/patent statement and competition evaluation; ask rights holder to cover selected hashes and derivatives.",
+      "alternative": "pornin/sphlib round-3 JH, Projet RNRT SAPHIR MIT; independent source/API, NOT a grant for selected Wu source and NOT adopted"
+    },
+    {
+      "path": ".upstream/monero/src/crypto/jh.h",
+      "sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+      "git_blob_sha1": "627a9ff058c38f6f813e9339b8e4fb52ad7b7ac4",
+      "selected_repository": "https://github.com/monero-project/monero",
+      "selected_commit": "22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0",
+      "local_copy_matches_pinned_raw": true,
+      "source_url": "https://raw.githubusercontent.com/monero-project/monero/22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0/src/crypto/jh.h",
+      "complete_path_history": [
+        {
+          "commit": "296ae46ed8f8f6e5f986f978febad302e3df231a",
+          "date": "2014-03-03T22:07:58Z",
+          "subject": "moved all stuff to github",
+          "file_delta": {
+            "sha": "627a9ff058c38f6f813e9339b8e4fb52ad7b7ac4",
+            "status": "added",
+            "additions": 21,
+            "deletions": 0
+          },
+          "patch_sha256": null,
+          "note": "Exact upstream commit/file change record acquired"
+        }
+      ],
+      "history_limit": "All returned entries (<100) at pinned commit; no history before original import established",
+      "initial_import_comparison": {
+        "left_sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+        "right_sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+        "left_lines": 21,
+        "right_lines": 21,
+        "identical": true,
+        "identical_after_line_ending_normalization": true,
+        "changed_ranges": [],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "cryptonote_comparison": {
+        "left_sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+        "right_sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+        "left_lines": 21,
+        "right_lines": 21,
+        "identical": true,
+        "identical_after_line_ending_normalization": true,
+        "changed_ranges": [],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "owner_relicense": false,
+      "redistribution_permission_verified": false,
+      "author": "Hongjun Wu, optimized ANSI C 64-bit, 2011-01-16",
+      "author_source_sha256": "ad070fe394476aed97ca3ba84dc023fa61186d1da13b72545599715d141db297",
+      "author_comparison": {
+        "left_sha256": "ad070fe394476aed97ca3ba84dc023fa61186d1da13b72545599715d141db297",
+        "right_sha256": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+        "left_lines": 369,
+        "right_lines": 21,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "replace",
+            "left": [
+              14,
+              20
+            ],
+            "right": [
+              14,
+              15
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              25,
+              369
+            ],
+            "right": [
+              20,
+              21
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "modification_summary": "Split API types/prototype and pragma once; unchanged since 2014 import.",
+      "missing_permission": "A software copyright grant for optimized JH ANSI C implementation, beyond public availability/patent statement and competition evaluation; ask rights holder to cover selected hashes and derivatives.",
+      "alternative": "pornin/sphlib round-3 JH, Projet RNRT SAPHIR MIT; independent source/API, NOT a grant for selected Wu source and NOT adopted"
+    },
+    {
+      "path": ".upstream/monero/src/crypto/keccak.c",
+      "sha256": "1fbfb9d4c857dab9f80ad2b6019e146ae64e8d1856ffdc5d03f66275c47ae5ca",
+      "git_blob_sha1": "f098cbdf03900f292a6981f98579bff200f6afcc",
+      "selected_repository": "https://github.com/monero-project/monero",
+      "selected_commit": "22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0",
+      "local_copy_matches_pinned_raw": true,
+      "source_url": "https://raw.githubusercontent.com/monero-project/monero/22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0/src/crypto/keccak.c",
+      "complete_path_history": [
+        {
+          "commit": "296ae46ed8f8f6e5f986f978febad302e3df231a",
+          "date": "2014-03-03T22:07:58Z",
+          "subject": "moved all stuff to github",
+          "file_delta": {
+            "sha": "3ee2a887ccd18d796fd4ce80e4425ef58f8b038b",
+            "status": "added",
+            "additions": 112,
+            "deletions": 0
+          },
+          "patch_sha256": null,
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "9b1afe5f2d488c64e3fb5e087055cf66d2165391",
+          "date": "2016-05-13T19:45:20Z",
+          "subject": "ringct: import of Shen Noether's ring confidential transactions",
+          "file_delta": {
+            "sha": "090d563a2c478b6e6af06aab5a796a9ef6e5728b",
+            "status": "modified",
+            "additions": 3,
+            "deletions": 3
+          },
+          "patch_sha256": "628fee21f0b29ac5ebfeff2d83ec2d937c757e71af18a0b756dabf381e0195b9",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "4877aca2b6e3ebc90ed86df3d4db4dfb06de7d51",
+          "date": "2017-11-07T11:56:36Z",
+          "subject": "keccak: some paranoid \"can't happen\" checks",
+          "file_delta": {
+            "sha": "5564c7db34d367ae2bb1acb44180036365925f8d",
+            "status": "modified",
+            "additions": 14,
+            "deletions": 0
+          },
+          "patch_sha256": "b2d23eeae2e99445595c0c5424dd5b749da6c1ecdd6b500f83564e27ca721967",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "e3e838d0cfa524f9b4dc90d3a356d5ce26515ddc",
+          "date": "2017-11-11T11:20:48Z",
+          "subject": "kaccak: remove unused return value",
+          "file_delta": {
+            "sha": "fc6d487c2f89eb01ef954de567323ebd0f012fe7",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 3
+          },
+          "patch_sha256": "c53beaa6669528c823f9e7a9cc0ccf01a9acad417971a8fb49e96b9e82e8764c",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "851bd057ecfa2997252429f86362b0a710a1af8d",
+          "date": "2018-01-26T10:35:13Z",
+          "subject": "call _exit instead of abort in release mode",
+          "file_delta": {
+            "sha": "528a5406b58366a507315e09582c212b41bce742",
+            "status": "modified",
+            "additions": 13,
+            "deletions": 4
+          },
+          "patch_sha256": "fff99c3baf6598f0e6af5dd8b446c6c0db3e0bfb871f7960fb7a852b03f5204d",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "03887f1140331326e3e6ca0a24161dd7ab74af1e",
+          "date": "2018-02-02T15:48:06Z",
+          "subject": "keccak: fix sanity check bounds test",
+          "file_delta": {
+            "sha": "7386d37a3d4547598bacb199e36e7784431de620",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 1
+          },
+          "patch_sha256": "eab6adf5cfd96c4fe603b116ee24e7b914c445d9f7b4d21d124fa695f9dddc06",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "e4646379a6fb5d1dcff71cc38db5e60802a21dcb",
+          "date": "2018-02-07T13:39:32Z",
+          "subject": "keccak: fix mdlen bounds sanity checking",
+          "file_delta": {
+            "sha": "533021af3175b6601081e3c9c3cede9c4b8449f1",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 1
+          },
+          "patch_sha256": "162b5872254528147e2351e14e3c1b044dfeaf3ceb98ee477b2baa2ea9c1a91e",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "f4a6bc79d9a751480597aa007a1c6d315604f856",
+          "date": "2018-02-16T13:26:58Z",
+          "subject": "Merge pull request #3226",
+          "file_delta": {
+            "sha": "de8e2a5b3207fec90c8637197e147867f0628ae3",
+            "status": "modified",
+            "additions": 3,
+            "deletions": 2
+          },
+          "patch_sha256": "ecea8daaaf16d14899b6c826ac25eb3f8b953b24826725bd37d1222d7c84ec27",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "4e081001c007178d9d970219c14ae78afd9a6935",
+          "date": "2018-08-14T21:23:00Z",
+          "subject": "Incremental Keccak API added",
+          "file_delta": {
+            "sha": "8fcd2138ea705c2e6bb3e7b4ca5c831de1f094ef",
+            "status": "modified",
+            "additions": 74,
+            "deletions": 0
+          },
+          "patch_sha256": "45bd952813b81deb7aa0abbbcfc588d2f26c69b9c5d70bd7ae298d37d971aa04",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "9bf0105e251fdedb5bd2cc2f04d99339d640f0af",
+          "date": "2018-09-17T14:32:55Z",
+          "subject": "Fixed Keccak implementation on big-endian platforms",
+          "file_delta": {
+            "sha": "b5946036ee6943a998ad1379301a65ee785f679d",
+            "status": "modified",
+            "additions": 8,
+            "deletions": 3
+          },
+          "patch_sha256": "fe3011cbfe1df0c93d9fdef67ccce910adbe4c0b8b01c1dbf966252c038da3a8",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "ed36335c969a1061e555724467263e22d1738cce",
+          "date": "2018-10-22T06:48:54Z",
+          "subject": "crypto: fixed incremental keccak API on big-endian platforms",
+          "file_delta": {
+            "sha": "b095b5ce2ecc3a86819bbc0c5acc89461e65a74d",
+            "status": "modified",
+            "additions": 3,
+            "deletions": 2
+          },
+          "patch_sha256": "772e4a3200ea85e36439eb148ad4c5a3b6e655e0dfdf53e5983c73794421dcdd",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "ec1a62b50dedb65f14db30dbafb1035018cf3421",
+          "date": "2018-11-18T10:17:24Z",
+          "subject": "move int-util.h to epee",
+          "file_delta": {
+            "sha": "1709112629681e8be5bfba8af1829b188258b7af",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 1
+          },
+          "patch_sha256": "f03b47848f04e56470e80d3379717d2bba1ba11f0793c6897ae09170f849b453",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "0564da5fdc165948ba7c862fb81478f9287a072d",
+          "date": "2019-04-29T08:17:32Z",
+          "subject": "ensure no NULL is passed to memcpy",
+          "file_delta": {
+            "sha": "18ed3152ff27cd413146b9f9600393c32d7ea5f8",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 1
+          },
+          "patch_sha256": "a2dc1b6b86eeadd0f4ad303c1a9326a7936a32f5d46608f3ddc7d157968f0f2c",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "c2238327d0c20f2a1e601ec120db51a13cebfc35",
+          "date": "2019-07-02T21:07:49Z",
+          "subject": "keccak: guard against misaligned memory accesses on ARM",
+          "file_delta": {
+            "sha": "851c70a25317c57e7d32fb4b7571fb62db76d6ae",
+            "status": "modified",
+            "additions": 6,
+            "deletions": 3
+          },
+          "patch_sha256": "87785e5e6ccdcd120c857a4b79019f274e574d46511e61abed14965680ea7459",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "7178bb5c848bca3996dba98f82c757c357b58934",
+          "date": "2020-05-16T12:27:22Z",
+          "subject": "keccak: remove aligned check",
+          "file_delta": {
+            "sha": "72d472d8a896a8697764709d25da49e12b6f5985",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 10
+          },
+          "patch_sha256": "91e3436bf67a0c1ba974738a53ae5de4a591bd650535a992e56812ada7a26d59",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "268a0393e9e7e02c5f2c41dc0137540cbf61ab76",
+          "date": "2022-04-16T09:48:37Z",
+          "subject": "Optimized keccak implementation",
+          "file_delta": {
+            "sha": "f098cbdf03900f292a6981f98579bff200f6afcc",
+            "status": "modified",
+            "additions": 62,
+            "deletions": 33
+          },
+          "patch_sha256": "01336706de5d1e26d3dfe753a6aadf322cf0b41091f7ea05121c7432452fc68a",
+          "note": "Exact upstream commit/file change record acquired"
+        }
+      ],
+      "history_limit": "All returned entries (<100) at pinned commit; no history before original import established",
+      "initial_import_comparison": {
+        "left_sha256": "6d1302d7b8f36a93d00c94bafce1d1c33d4e2e629950b02d6bceebfb0483a840",
+        "right_sha256": "1fbfb9d4c857dab9f80ad2b6019e146ae64e8d1856ffdc5d03f66275c47ae5ca",
+        "left_lines": 112,
+        "right_lines": 239,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "insert",
+            "left": [
+              4,
+              4
+            ],
+            "right": [
+              4,
+              8
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              6,
+              6
+            ],
+            "right": [
+              10,
+              20
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              19,
+              31
+            ],
+            "right": [
+              33,
+              33
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              35,
+              36
+            ],
+            "right": [
+              37,
+              38
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              38,
+              39
+            ],
+            "right": [
+              40,
+              47
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              40,
+              43
+            ],
+            "right": [
+              48,
+              56
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              44,
+              49
+            ],
+            "right": [
+              57,
+              62
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              52,
+              57
+            ],
+            "right": [
+              65,
+              102
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              59,
+              66
+            ],
+            "right": [
+              104,
+              109
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              75,
+              76
+            ],
+            "right": [
+              118,
+              119
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              79,
+              80
+            ],
+            "right": [
+              122,
+              129
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              87,
+              90
+            ],
+            "right": [
+              136,
+              142
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              93,
+              94
+            ],
+            "right": [
+              145,
+              152
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              99,
+              100
+            ],
+            "right": [
+              157,
+              158
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              103,
+              106
+            ],
+            "right": [
+              161,
+              166
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              108,
+              109
+            ],
+            "right": [
+              168,
+              169
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              112,
+              112
+            ],
+            "right": [
+              172,
+              239
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "cryptonote_comparison": {
+        "left_sha256": "6d1302d7b8f36a93d00c94bafce1d1c33d4e2e629950b02d6bceebfb0483a840",
+        "right_sha256": "1fbfb9d4c857dab9f80ad2b6019e146ae64e8d1856ffdc5d03f66275c47ae5ca",
+        "left_lines": 112,
+        "right_lines": 239,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "insert",
+            "left": [
+              4,
+              4
+            ],
+            "right": [
+              4,
+              8
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              6,
+              6
+            ],
+            "right": [
+              10,
+              20
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              19,
+              31
+            ],
+            "right": [
+              33,
+              33
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              35,
+              36
+            ],
+            "right": [
+              37,
+              38
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              38,
+              39
+            ],
+            "right": [
+              40,
+              47
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              40,
+              43
+            ],
+            "right": [
+              48,
+              56
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              44,
+              49
+            ],
+            "right": [
+              57,
+              62
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              52,
+              57
+            ],
+            "right": [
+              65,
+              102
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              59,
+              66
+            ],
+            "right": [
+              104,
+              109
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              75,
+              76
+            ],
+            "right": [
+              118,
+              119
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              79,
+              80
+            ],
+            "right": [
+              122,
+              129
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              87,
+              90
+            ],
+            "right": [
+              136,
+              142
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              93,
+              94
+            ],
+            "right": [
+              145,
+              152
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              99,
+              100
+            ],
+            "right": [
+              157,
+              158
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              103,
+              106
+            ],
+            "right": [
+              161,
+              166
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              108,
+              109
+            ],
+            "right": [
+              168,
+              169
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              112,
+              112
+            ],
+            "right": [
+              172,
+              239
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "owner_relicense": false,
+      "redistribution_permission_verified": false,
+      "author": "Markku-Juhani O. Saarinen, baseline Keccak third round, 2011-11-19",
+      "author_2015_comparison": {
+        "left_sha256": "2c57241bbbadc96cabce54bca8f6360593cd60db89953d8cb5783fe300654703",
+        "right_sha256": "1fbfb9d4c857dab9f80ad2b6019e146ae64e8d1856ffdc5d03f66275c47ae5ca",
+        "left_lines": 165,
+        "right_lines": 239,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "replace",
+            "left": [
+              0,
+              1
+            ],
+            "right": [
+              0,
+              1
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              2,
+              2
+            ],
+            "right": [
+              2,
+              3
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              3,
+              5
+            ],
+            "right": [
+              4,
+              10
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              6,
+              7
+            ],
+            "right": [
+              11,
+              32
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              10,
+              11
+            ],
+            "right": [
+              35,
+              36
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              12,
+              34
+            ],
+            "right": [
+              37,
+              38
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              36,
+              38
+            ],
+            "right": [
+              40,
+              47
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              39,
+              48
+            ],
+            "right": [
+              48,
+              56
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              49,
+              61
+            ],
+            "right": [
+              57,
+              62
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              64,
+              69
+            ],
+            "right": [
+              65,
+              102
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              71,
+              78
+            ],
+            "right": [
+              104,
+              109
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              80,
+              81
+            ],
+            "right": [
+              111,
+              128
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              83,
+              96
+            ],
+            "right": [
+              130,
+              142
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              97,
+              98
+            ],
+            "right": [
+              143,
+              166
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              100,
+              103
+            ],
+            "right": [
+              168,
+              169
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              104,
+              113
+            ],
+            "right": [
+              170,
+              171
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              115,
+              116
+            ],
+            "right": [
+              173,
+              182
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              117,
+              121
+            ],
+            "right": [
+              183,
+              183
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              122,
+              133
+            ],
+            "right": [
+              184,
+              186
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              135,
+              147
+            ],
+            "right": [
+              188,
+              191
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              149,
+              150
+            ],
+            "right": [
+              193,
+              218
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              152,
+              153
+            ],
+            "right": [
+              220,
+              227
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              154,
+              157
+            ],
+            "right": [
+              228,
+              232
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              158,
+              163
+            ],
+            "right": [
+              233,
+              238
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              164,
+              165
+            ],
+            "right": [
+              239,
+              239
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "modification_summary": "Original one-shot API retained and modified; Monero size_t/void signatures, preconditions, fatal misuse handling, incremental API, endian/alignment fixes and 2022 permutation unrolling.",
+      "missing_permission": "Author tiny_sha3 MIT (2015) establishes rights for that delivered revision/shared expression, but original one-shot 2011 implementation and full selected derivative coverage remain unproven; confirm exact baseline coverage, not new owner BSD authorship.",
+      "alternative": "Author tiny_sha3 MIT or pornin/sphlib MIT. SHA3 0x06 domain padding is NOT legacy Keccak 0x01; current 200-byte state export/incremental API and all consensus vectors must be preserved before replacement."
+    },
+    {
+      "path": ".upstream/monero/src/crypto/keccak.h",
+      "sha256": "dde2bdb591a893b8ca5890b7e3d5be906812d4b3977e9006b5434e1cf35d3be7",
+      "git_blob_sha1": "9123c7a3b58a7a0ccbdd025ebadfd972805b89d5",
+      "selected_repository": "https://github.com/monero-project/monero",
+      "selected_commit": "22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0",
+      "local_copy_matches_pinned_raw": true,
+      "source_url": "https://raw.githubusercontent.com/monero-project/monero/22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0/src/crypto/keccak.h",
+      "complete_path_history": [
+        {
+          "commit": "296ae46ed8f8f6e5f986f978febad302e3df231a",
+          "date": "2014-03-03T22:07:58Z",
+          "subject": "moved all stuff to github",
+          "file_delta": {
+            "sha": "4f7f85729a55003ebcc78a5249b751b5c540a64f",
+            "status": "added",
+            "additions": 26,
+            "deletions": 0
+          },
+          "patch_sha256": null,
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "9b1afe5f2d488c64e3fb5e087055cf66d2165391",
+          "date": "2016-05-13T19:45:20Z",
+          "subject": "ringct: import of Shen Noether's ring confidential transactions",
+          "file_delta": {
+            "sha": "fbd8e1904a3010c3550c01ed2f8deb7e199a3b89",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 2
+          },
+          "patch_sha256": "f793fce37895042286c0348492e002f3c0efbe8ba49c5b9745da674ee72fd8ab",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "e3e838d0cfa524f9b4dc90d3a356d5ce26515ddc",
+          "date": "2017-11-11T11:20:48Z",
+          "subject": "kaccak: remove unused return value",
+          "file_delta": {
+            "sha": "fb9d8bd04309f1b44531b86f7b4b701ee043dfae",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 1
+          },
+          "patch_sha256": "ede2be535d9b1bc4f68415d60a3dd2ff5f9acfc1821fe5d309d916215e55044d",
+          "note": "Exact upstream commit/file change record acquired"
+        },
+        {
+          "commit": "4e081001c007178d9d970219c14ae78afd9a6935",
+          "date": "2018-08-14T21:23:00Z",
+          "subject": "Incremental Keccak API added",
+          "file_delta": {
+            "sha": "9123c7a3b58a7a0ccbdd025ebadfd972805b89d5",
+            "status": "modified",
+            "additions": 14,
+            "deletions": 0
+          },
+          "patch_sha256": "b261543cb1eef18b7b4170456d84ae61785a0ce4c8d7757ea378cf2b4f19d773",
+          "note": "Exact upstream commit/file change record acquired"
+        }
+      ],
+      "history_limit": "All returned entries (<100) at pinned commit; no history before original import established",
+      "initial_import_comparison": {
+        "left_sha256": "34f1b5f3ba662fa4e12f30d19354f70c8af0cdf31bea3edd1ff157cdae3b2e31",
+        "right_sha256": "dde2bdb591a893b8ca5890b7e3d5be906812d4b3977e9006b5434e1cf35d3be7",
+        "left_lines": 26,
+        "right_lines": 40,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "insert",
+            "left": [
+              17,
+              17
+            ],
+            "right": [
+              17,
+              28
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              18,
+              19
+            ],
+            "right": [
+              29,
+              30
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              23,
+              24
+            ],
+            "right": [
+              34,
+              35
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              25,
+              25
+            ],
+            "right": [
+              36,
+              39
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "cryptonote_comparison": {
+        "left_sha256": "34f1b5f3ba662fa4e12f30d19354f70c8af0cdf31bea3edd1ff157cdae3b2e31",
+        "right_sha256": "dde2bdb591a893b8ca5890b7e3d5be906812d4b3977e9006b5434e1cf35d3be7",
+        "left_lines": 26,
+        "right_lines": 40,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "insert",
+            "left": [
+              17,
+              17
+            ],
+            "right": [
+              17,
+              28
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              18,
+              19
+            ],
+            "right": [
+              29,
+              30
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              23,
+              24
+            ],
+            "right": [
+              34,
+              35
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              25,
+              25
+            ],
+            "right": [
+              36,
+              39
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "owner_relicense": false,
+      "redistribution_permission_verified": false,
+      "author": "Markku-Juhani O. Saarinen, baseline Keccak third round, 2011-11-19",
+      "author_2015_comparison": {
+        "left_sha256": "d8f3b274d35df4ecbea9b6ffb81b77954716bd11755087ca6bb209f077690f73",
+        "right_sha256": "dde2bdb591a893b8ca5890b7e3d5be906812d4b3977e9006b5434e1cf35d3be7",
+        "left_lines": 36,
+        "right_lines": 40,
+        "identical": false,
+        "identical_after_line_ending_normalization": false,
+        "changed_ranges": [
+          {
+            "operation": "replace",
+            "left": [
+              0,
+              1
+            ],
+            "right": [
+              0,
+              1
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              3,
+              5
+            ],
+            "right": [
+              3,
+              5
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              6,
+              7
+            ],
+            "right": [
+              6,
+              6
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              8,
+              8
+            ],
+            "right": [
+              7,
+              8
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              9,
+              11
+            ],
+            "right": [
+              9,
+              11
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              17,
+              25
+            ],
+            "right": [
+              17,
+              27
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              26,
+              30
+            ],
+            "right": [
+              28,
+              30
+            ]
+          },
+          {
+            "operation": "replace",
+            "left": [
+              31,
+              33
+            ],
+            "right": [
+              31,
+              33
+            ]
+          },
+          {
+            "operation": "insert",
+            "left": [
+              34,
+              34
+            ],
+            "right": [
+              34,
+              39
+            ]
+          },
+          {
+            "operation": "delete",
+            "left": [
+              35,
+              36
+            ],
+            "right": [
+              40,
+              40
+            ]
+          }
+        ],
+        "coordinates": "Zero-based half-open line ranges; source retained in private local research cache, not copied into this report"
+      },
+      "modification_summary": "Round/rotate definitions and original prototypes; size_t/void and incremental KECCAK_CTX API added.",
+      "missing_permission": "Author tiny_sha3 MIT (2015) establishes rights for that delivered revision/shared expression, but original one-shot 2011 implementation and full selected derivative coverage remain unproven; confirm exact baseline coverage, not new owner BSD authorship.",
+      "alternative": "Author tiny_sha3 MIT or pornin/sphlib MIT. SHA3 0x06 domain padding is NOT legacy Keccak 0x01; current 200-byte state export/incremental API and all consensus vectors must be preserved before replacement."
+    }
+  ],
+  "jh_author_archive_and_direct_source_identical": true,
+  "cryptonote_pin": "8edd998304431c219b432194b7a3847b44b576c3",
+  "sphlib_pin": "15b6b8d8f3e4a43c58ba102d712fa6b8a3317035",
+  "sphlib_license_sha256": "1a5b46ad8c1367ce6b5c7b25e7beec6bfc87b0c98b9fdd4a7b9573c6dd1f0a1f",
+  "sphlib_source_sha256": {
+    "c/jh.c": "b170783396835c430d7d2e546fbf5ddf02ac9eceffe89eba9945e2e126f81298",
+    "c/sph_jh.h": "6f572308e188bb0d607291c43f8491ffdd13eadb5329bea1ec81398b9b368d4f",
+    "c/keccak.c": "224f3c070a5ed2f3aaff9641644f9ded9f34d2dcce51bc8d39774a2ab842435e",
+    "c/sph_keccak.h": "c8617ba9fb8ebb5384d1a3c86d93da363d9c09a45280a34084ebd387f9ebb9e3",
+    "c/sph_types.h": "0a87bd456362fef5f39f1b3541e9e7ecfc0305be2ea89d804fd4e65585b19db9"
+  },
+  "sphlib_relationship": "Separate Thomas Pornin/Projet RNRT SAPHIR code, distinct API and source structure. No evidence selected files derive from sphlib; its grant cannot be transferred based on algorithm names.",
+  "tiny_sha3_recovered_archive_sha256": "27a4e32aef33f1eb2c29dcaa0c37d39580685e6c69a7c349edb95bedd3225a8f",
+  "tiny_sha3_archive_scope": "2015 sha3.c/h and MIT LICENSE, not original 2011 keccak.c/h; no retroactive grant invented",
+  "original_code_changed": false,
+  "cryptographic_replacement_performed": false
+}

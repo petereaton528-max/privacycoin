@@ -1,0 +1,159 @@
+{
+  "format": "PC_MAINNET_IDENTITY_PROPOSAL_V1",
+  "approved": false,
+  "launchable": false,
+  "naming": {
+    "currency": "Privacy Coin",
+    "symbol": "PC",
+    "public_network_name": "Privacy Coin Mainnet",
+    "human_network_identifier": "PrivacyCoinMainnet",
+    "protocol_namespace": "PrivacyCoin/Mainnet/V1"
+  },
+  "binding": {
+    "format": "PC_PRODUCTION_BINDING_V1",
+    "purpose": "PRODUCTION_RESERVED",
+    "policy_sha256": "58e6245f79e72f8315d21c9a9960b8d320eef0d9b4bca6acb464f939f32d5b1f",
+    "network": "PCMainnetV1_0001",
+    "domain": "PrivacyCoin/Mainnet/V1",
+    "address_prefix": "PCmn1-",
+    "fee_policy": {
+      "relay_atomic_per_byte": 100,
+      "wallet_default_atomic": 1000000000,
+      "consensus_min_atomic": 1,
+      "consensus_max_atomic": 1000000000000
+    },
+    "production_approvals": null
+  },
+  "binding_sha256": "c5cf2fdb84e0c39352674da2762555ba8bdcb8f13259d9ff7b3f68b632177e8e",
+  "wire_magic_ascii": "PCMainnetV1_0001",
+  "wire_magic_hex": "50434d61696e6e657456315f30303031",
+  "native_consensus_network": "PCMainnetV1_0001",
+  "bound_domain_ascii": "PrivacyCoin/Mainnet/V1/binding/c5cf2fdb84e0c39352674da2762555ba8bdcb8f13259d9ff7b3f68b632177e8e",
+  "bound_domain_hex": "50726976616379436f696e2f4d61696e6e65742f56312f62696e64696e672f63356366326664623834653063333933353236373464613237363235353562613862646362386631333235396439666637623366363862363332313737653865",
+  "policy_text_ascii": "PrivacyCoin/Mainnet/V1/binding/c5cf2fdb84e0c39352674da2762555ba8bdcb8f13259d9ff7b3f68b632177e8e|159627169409884823|0:0:15962716940988482|1:65700:8979028279306022|2:131400:8979028279306022|3:197100:8979028279306022|4:262800:8979028279306022|5:328500:8979028279306022|6:394200:8979028279306021|7:459900:8979028279306021|8:525600:8979028279306021|9:591300:8979028279306021|10:657000:8979028279306021|11:722700:8979028279306021|12:788400:8979028279306021|13:854100:8979028279306021|14:919800:8979028279306021|15:985500:8979028279306021|16:1051200:8979028279306021",
+  "policy_text_hex": "50726976616379436f696e2f4d61696e6e65742f56312f62696e64696e672f633563663266646238346530633339333532363734646132373632353535626138626463623866313332353964396666376233663638623633323137376538657c3135393632373136393430393838343832337c303a303a31353936323731363934303938383438327c313a36353730303a383937393032383237393330363032327c323a3133313430303a383937393032383237393330363032327c333a3139373130303a383937393032383237393330363032327c343a3236323830303a383937393032383237393330363032327c353a3332383530303a383937393032383237393330363032327c363a3339343230303a383937393032383237393330363032317c373a3435393930303a383937393032383237393330363032317c383a3532353630303a383937393032383237393330363032317c393a3539313330303a383937393032383237393330363032317c31303a3635373030303a383937393032383237393330363032317c31313a3732323730303a383937393032383237393330363032317c31323a3738383430303a383937393032383237393330363032317c31333a3835343130303a383937393032383237393330363032317c31343a3931393830303a383937393032383237393330363032317c31353a3938353530303a383937393032383237393330363032317c31363a313035313230303a38393739303238323739333036303231",
+  "creator_outputs": [
+    {
+      "index": 0,
+      "atomic": 15962716940988482,
+      "unlock_height": 0
+    },
+    {
+      "index": 1,
+      "atomic": 8979028279306022,
+      "unlock_height": 65700
+    },
+    {
+      "index": 2,
+      "atomic": 8979028279306022,
+      "unlock_height": 131400
+    },
+    {
+      "index": 3,
+      "atomic": 8979028279306022,
+      "unlock_height": 197100
+    },
+    {
+      "index": 4,
+      "atomic": 8979028279306022,
+      "unlock_height": 262800
+    },
+    {
+      "index": 5,
+      "atomic": 8979028279306022,
+      "unlock_height": 328500
+    },
+    {
+      "index": 6,
+      "atomic": 8979028279306021,
+      "unlock_height": 394200
+    },
+    {
+      "index": 7,
+      "atomic": 8979028279306021,
+      "unlock_height": 459900
+    },
+    {
+      "index": 8,
+      "atomic": 8979028279306021,
+      "unlock_height": 525600
+    },
+    {
+      "index": 9,
+      "atomic": 8979028279306021,
+      "unlock_height": 591300
+    },
+    {
+      "index": 10,
+      "atomic": 8979028279306021,
+      "unlock_height": 657000
+    },
+    {
+      "index": 11,
+      "atomic": 8979028279306021,
+      "unlock_height": 722700
+    },
+    {
+      "index": 12,
+      "atomic": 8979028279306021,
+      "unlock_height": 788400
+    },
+    {
+      "index": 13,
+      "atomic": 8979028279306021,
+      "unlock_height": 854100
+    },
+    {
+      "index": 14,
+      "atomic": 8979028279306021,
+      "unlock_height": 919800
+    },
+    {
+      "index": 15,
+      "atomic": 8979028279306021,
+      "unlock_height": 985500
+    },
+    {
+      "index": 16,
+      "atomic": 8979028279306021,
+      "unlock_height": 1051200
+    }
+  ],
+  "derived_fields": {
+    "H": "native crypto::cn_fast_hash (Keccak-256); lowercase hex where hex() appears",
+    "C": "bound_domain_ascii + /policy/ + hex(H(UTF8(policy_text_ascii)))",
+    "T": "hex(SHA256(UTF8(PC/CANDIDATE-OFFLINE/ + C)))",
+    "G": "native canonical block hash of separately approved Genesis; NOT assigned here",
+    "native_transaction_domain": "UTF8(bound_domain_ascii + / + G); consensus V1",
+    "private_transaction_nonce": "00 || H(native_transaction_domain), exactly 33 bytes",
+    "coinbase_extra_nonce": "native_transaction_domain; Genesis uses C",
+    "wallet_child_seed": "H(UTF8(PrivacyCoin/DRAFT/wallet/v1/) || unhex(T) || 00 || master_seed_32)",
+    "address": "PCmn1- + G + -PCdraft1- + T + - + hex(payload || check)",
+    "address_payload": "01fe010101 || subaddress_flag_1 || public_D_32 || public_C_32 (70 bytes)",
+    "address_check": "first 4 bytes of H(unhex(T) || payload)",
+    "recovery_kind": "pc-draft-recovery/v1/ + T + / + G; encrypted PC_DRAFT_RECOVERY_V1 payload",
+    "database_identity": "bound_domain_ascii + / + G",
+    "P2P_compatibility": "exact tuple (native_consensus_network, G, database_identity); mandatory onion/TLS peer identity checks remain separate"
+  },
+  "known_identity_comparison": {
+    "historical native / N2 legacy chain": "PrivacyCoinDev01",
+    "ticket-free Dev02": "PrivacyCoinDev02",
+    "vesting laboratory": "PrivacyCoinLab01",
+    "bound offline review": "PCBindingTest001",
+    "prior zero-allocation proposal (never activated)": "PrivacyCoinMN001"
+  },
+  "limitations": [
+    "All proposed strings are exact UTF-8/ASCII without a trailing NUL. || means concatenation.",
+    "Retained DRAFT/CANDIDATE codec labels are deliberate compatibility constants, not authorization or weak keys. No new cryptographic primitive is introduced.",
+    "G, final recipient and final canonical bytes remain unassigned. No complete production address or database path can yet be instantiated.",
+    "Runtime/compiler rejects PRODUCTION_RESERVED. A separate reviewed approval gate is still required; never edit launch flags.",
+    "The frozen binding preimage includes production_approvals:null. Future approval is external evidence, not a mutable remote consensus setting.",
+    "Known-identity comparison is scoped to this reviewed source inventory; not a proof of global uniqueness."
+  ],
+  "resolved_policy": {
+    "native_helper_sha256": "eabdddd9596d0a11dcfa41af02201e68c930d92b2909a8c3f49d5608fd6cf88f",
+    "commitment_ascii": "PrivacyCoin/Mainnet/V1/binding/c5cf2fdb84e0c39352674da2762555ba8bdcb8f13259d9ff7b3f68b632177e8e/policy/d413e8d7529e4bdfcf3b794546aa07bcd179da05c8a6546452ca167d789fd921",
+    "commitment_hex": "50726976616379436f696e2f4d61696e6e65742f56312f62696e64696e672f633563663266646238346530633339333532363734646132373632353535626138626463623866313332353964396666376233663638623633323137376538652f706f6c6963792f64343133653864373532396534626466636633623739343534366161303762636431373964613035633861363534363435326361313637643738396664393231",
+    "wallet_network_tag": "70eb24485a2e0101084886506af311094a803af7b1392724a93d210cbb4850b0"
+  }
+}

@@ -1,0 +1,10 @@
+# Executable Phase 1 gates
+
+Build and run commands are in [DEVNET.md](../../docs/protocol/DEVNET.md). All new tests run without exclusions or waivers. The unchanged frozen-baseline comparison is recorded separately; its Phase 0 filter is not a new Phase 1 waiver.
+
+- `unit.cpp` calls the actual C++ validator/miner/LMDB code, not copied consensus arithmetic. It rejects malformed, oversized, wrong-parent, wrong-height, invalid-reward/unlock/version/key/domain/difficulty/timestamp and actual invalid RandomX blocks; checks duplicate handling, equal-work stability, shorter higher-work selection, disconnected ancestry, persistence identity and corruption; and validates 2,113 real RandomX blocks through the full DAA window and actual height-2,048 seed transition.
+- `mining-vector.json` freezes canonical height-1 block/hash-blob/RandomX bytes plus deterministic height-2,048 and height-2,113 identities. Fixed unit timestamps are admissible historical timestamps; no fake hash or relaxed validation clock is used. The checkpoint driver compares freshly executed vectors against this fixture.
+- `integration.py` starts independent real processes/directories, invokes the CLI CPU miner, checks accepted rewards, clean/forced restart, exact block synchronization, a partitioned three-versus-five-work reorg and retained losing blocks. It also rejects incompatible handshakes and concurrent directory use, and records rough Windows process/time measurements.
+- `scripts/phase1/checkpoint.py` checks original source archives and frozen Phase 0 evidence, reuses unchanged input/documentation checks with only their output log paths redirected, and repeats frozen genesis/reward vectors. `close.py` requires all evidence and compiled/executed artifact identities to agree.
+
+Ordinary transactions and immature-spend submission are intentionally unavailable. They are rejected, not skipped. Maturity and positive-fee/overflow rules are tested through the shared consensus adapter. No wallet, private-payment, mempool or network-privacy capability is implied. Long-chain unit validation does not establish scalable P2P sync or an epoch-spanning live reorg.

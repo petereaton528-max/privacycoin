@@ -1,0 +1,8 @@
+include("${CMAKE_CURRENT_LIST_DIR}/../../../tests/phase4/inject.cmake")
+function(privacycoin_v1_public_tools)
+  add_executable(pc-public-tools "${CMAKE_CURRENT_FUNCTION_LIST_DIR}/public_tools.cpp")
+  set_target_properties(pc-public-tools PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED YES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/v1")
+  target_include_directories(pc-public-tools PRIVATE "${CMAKE_CURRENT_FUNCTION_LIST_DIR}/../../../src" "${CMAKE_SOURCE_DIR}/src" "${CMAKE_SOURCE_DIR}/external/randomx/src")
+  target_link_libraries(pc-public-tools PRIVATE cryptonote_basic ringct randomx sodium)
+endfunction()
+cmake_language(DEFER CALL privacycoin_v1_public_tools)

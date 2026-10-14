@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "devnet_only": true,
+  "onion": "REPLACE_WITH_AUTHENTICATED_V3_ONION_AFTER_SEPARATE_AUTHORIZATION",
+  "provider": "REPLACE_WITH_64_HEX_PROVIDER_PUBLIC_ID"
+}

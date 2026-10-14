@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "source_commit": "da82df226d4e61bdb79581a1990d6bce802a8e65",
+  "base_archives": {
+    "privacycoin-binding-review-source.zip": "41c2d98a87e87997d030f07551076199d31b5f6950036c808b466c9a926d5dac",
+    "privacycoin-binding-review-linux-wsl2.zip": "1aa6988df3637f25eff09978926be3c8efc1e6d5106bb35e6b991f50ee895a4a",
+    "privacycoin-rc5-gnu-corresponding-source-inspection.zip": "4723b07b7135d3966d6c9cd141bf47a1fca57ac03e9781c33d761c9ae4291c9d"
+  },
+  "overlays": {
+    "tools/mainnet_prepare/binding.py": "d024ea2c243aaf9d38f4c343657c76a880c3e00337705623f2f032cac48636d1",
+    "tools/mainnet_prepare/approved_policy.json": "a398624590f31b503cdea9590c501bc54a57e269ae66d1200daf4cf0ba6bbdc2",
+    "tools/mainnet_prepare/production_identity_proposal.json": "67036217d08417ca8d996f2fd807d0a171b5d849e53fb7901225feeffddbaa04",
+    "tools/mainnet_prepare/genesis_finalization.py": "96d70cfe2bb079981a194be9ed4c40b117fbf9f1876a29c3f50bb0bbd927aef7",
+    "tools/mainnet_prepare/disposable_genesis.py": "a2068749bf8e2d12a7bd2baa1a9cb7ca1987129af6bc0f9701b8c2694128e81a",
+    "tools/mainnet_prepare/test_genesis_finalization.py": "91c0da8d47623d37bf5a1398c483264c673ba57a9cccd0a77c4b69e8321349ca",
+    "tools/mainnet_prepare/CUSTODY_STATUS.json": "b807ad2296d136cbe7db99871faefa8333f9850ec4478d9c5090eed364cbfe9c",
+    "tools/mainnet_prepare/FINALIZATION.md": "8a38f19fc482576aa8583abb5d7f66d398c8ebb7dd73743d65812497f0ba9e78",
+    "tools/mainnet_prepare/stage_finalization.py": "776e74318c497bff3de82cf0618b4e9d966dadf6b3489164dab757d727c2ab29"
+  },
+  "source_only_overlays": {
+    "tools/mainnet_prepare/founder.py": "46ec44820370861123afe2a2a4f0c4fdef95bef12f70ca3e4e1a4aaba1e17680",
+    "tools/mainnet_prepare/founder_entry.py": "d9e6a7c6c95e8a73ef5211f613f7e560e7ab9ee8a2708f48d6070d9af496902a",
+    "tools/mainnet_prepare/install_founder.py": "e0f695479ff29f1a2123f35c98f0c893334eeeed465354c4e3e2e733c587ab1b",
+    "tools/mainnet_prepare/test_founder.py": "f543f948a8642c00938e80626541e40f8554484b0133eac9f82edf1ba5756cef",
+    "tools/mainnet_prepare/verify_founder_native.py": "0bd2b4543199b3b3087837691f44ec8029cbb9e46e48c93e0571771ef20899a5",
+    "tools/mainnet_prepare/validate_founder_package.py": "61c49f85d2adfb44de4bd4dbae50a86bc444a20ee53298e3c75b4f3a9acce3f1",
+    "tools/mainnet_prepare/package_founder.py": "f1ce2b4ea6ff6b1e7e6f899b4251559a9b93b990e7e027cb319084f26c20b96e",
+    "tools/mainnet_prepare/FOUNDER_OFFLINE.md": "ff3fe2068e80871b80d25514ab284f492a8e811eefb8a32d02988fb08383a318"
+  },
+  "production": false,
+  "launchable": false,
+  "publication_authorized": false,
+  "recipient_selected": false,
+  "genesis_finalized": false
+}

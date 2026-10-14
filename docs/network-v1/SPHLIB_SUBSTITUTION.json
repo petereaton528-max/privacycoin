@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "baseline_commit": "f26d0c28c68884bf890aa15068349295cd866cc8",
+  "upstream": "https://github.com/pornin/sphlib",
+  "upstream_commit": "15b6b8d8f3e4a43c58ba102d712fa6b8a3317035",
+  "license": "MIT",
+  "copyright": "Projet RNRT SAPHIR; original per-file years retained",
+  "original_adapter_license": "BSD-3-Clause",
+  "original_adapter_copyright": "Copyright (c) 2026 petereaton528-max",
+  "inherited_implementation_sha256_excluded": {
+    "jh.c": "df9ff5fa646179e984baf03fbf4be9914893e6900b9f7223d7a115c952df72d3",
+    "jh.h": "ca4f3570ce36a46bdc24e749ad1d60f9216ee708076d61fd9f1a1ed336626178",
+    "keccak.c": "1fbfb9d4c857dab9f80ad2b6019e146ae64e8d1856ffdc5d03f66275c47ae5ca",
+    "keccak.h": "dde2bdb591a893b8ca5890b7e3d5be906812d4b3977e9006b5434e1cf35d3be7"
+  },
+  "source_files": {
+    ".upstream/monero/src/crypto/jh.c": "95ecf702b9eaa97b7b049a6c97787c117d358bdf58324ca723b85f7b7d1a3e09",
+    ".upstream/monero/src/crypto/jh.h": "4f844108763408a722818d4fdf4fbbe8f5bf0d33a7d4daaaf6e11dabfed3f432",
+    ".upstream/monero/src/crypto/keccak.c": "32d356f65ffac186f11ad78cc7934bb202428b5282df0d87a6e3206e8e31de65",
+    ".upstream/monero/src/crypto/keccak.h": "853020354e7cf5e2903b45ce2724d9f5263bf9db219fb01547c2b70b08270011",
+    ".upstream/monero/src/crypto/pc_sphlib/jh_sph.c": "5a290750c99558d3167f6bb4f672bb031faac5b71c07054d335427cb020e0a7d",
+    ".upstream/monero/src/crypto/pc_sphlib/keccak_sph.c": "224f3c070a5ed2f3aaff9641644f9ded9f34d2dcce51bc8d39774a2ab842435e",
+    ".upstream/monero/src/crypto/pc_sphlib/LICENSE": "1a5b46ad8c1367ce6b5c7b25e7beec6bfc87b0c98b9fdd4a7b9573c6dd1f0a1f",
+    ".upstream/monero/src/crypto/pc_sphlib/PROVENANCE.json": "83d8006713a7076ab3d656d13a12d3b27533e8b2e108a04df271deaf0468db7d",
+    ".upstream/monero/src/crypto/pc_sphlib/README.md": "b43664108d4e24d557931d9cd540310880c94095352366eae7a2e887f5ebeca1",
+    ".upstream/monero/src/crypto/pc_sphlib/sph_jh.h": "6f572308e188bb0d607291c43f8491ffdd13eadb5329bea1ec81398b9b368d4f",
+    ".upstream/monero/src/crypto/pc_sphlib/sph_keccak.h": "c8617ba9fb8ebb5384d1a3c86d93da363d9c09a45280a34084ebd387f9ebb9e3",
+    ".upstream/monero/src/crypto/pc_sphlib/sph_types.h": "0a87bd456362fef5f39f1b3541e9e7ecfc0305be2ea89d804fd4e65585b19db9"
+  },
+  "linux_binary_sha256": {
+    "phase4/privacycoin-hardened-devnet": "d30accdcac41d64e930752f13522f37fcab5cd40a619252355ba287f294fe80e",
+    "phase4/privacycoin-hardened-crypto": "df1fdb898d99b0f2c39568efa4c24d740cb1a54ac45e790e4b5b9fc4221a50bf",
+    "phase2/privacycoin-wallet-crypto": "eabdddd9596d0a11dcfa41af02201e68c930d92b2909a8c3f49d5608fd6cf88f",
+    "v1/pc-public-tools": "b1200371647a227da5e2176aa3e2e349c7041d41415c80faa940a3c019c1de44"
+  },
+  "compatibility_evidence": "docs/evidence/network-v1-sphlib-20261012/",
+  "modified_vendor_source": "jh_sph.c: single legacy partial-bit padding expression; exact delta in PROVENANCE.json",
+  "source_and_linux_scope_only": true,
+  "windows_binaries_substituted": false,
+  "public_release_authorized": false
+}

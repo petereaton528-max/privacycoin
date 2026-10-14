@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "purpose": "UNPUBLISHED_REVIEW_SOURCE_NOT_MAINNET_RELEASE",
+  "base_source_archive_sha256": "b06232a65581ac83e5d8e7520a45d13094ead2e29a73214c5595015043b77235",
+  "base_source_commit": "c559546",
+  "overlay_source_commit": "c5b904784fb335da184ec507a1ce109adf5a905e",
+  "overlay_files": {
+    "apps/network_v1/candidate_gui.py": "00a51ffa8d9dc31d9e06a1108ca2b3ffadf666eb7ca5b6a8e008052d5290f4e6",
+    "apps/network_v1/onion.py": "a991bb82969b27fc56864b54a23d390b9b9690709588714cd9f22dcd3e02e68d",
+    "apps/network_v1/tests/test_tor_worker.py": "9717a71979633e2fa68606c0bcf2d64d756ea569d8d8b211f211309e54a51595",
+    "services/privacy-network/tor_runtime.py": "95ccc10b2370a6d5cd342cb2adacbc1c25cd56950ff171a56b0d5130de66cdb3"
+  },
+  "git_correspondence": "LF-normalized comparison; archive retains exact verified shipped CRLF bytes",
+  "native_binaries_changed": false,
+  "publication_authorized": false
+}

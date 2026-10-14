@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "devnet_only": true,
+  "role": "provider",
+  "home": "/home/CHOOSE_USER/.local/share/privacycoin-n2-desktop",
+  "node_rpc": 19481,
+  "node_p2p": 19480,
+  "provider_port": 19482,
+  "bridge_port": 19483,
+  "socks_port": 19450,
+  "peer_port": null
+}

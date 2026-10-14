@@ -1,0 +1,10 @@
+"""Freeze explicit final cohorts; retain the human failure and all attempts."""
+from common import *
+OUT=ROOT/'docs/evidence/privacy-network-repair'
+if __name__=='__main__':
+    files=['tests-1791521046166407770.json','regressions/core/attempt-1791521189675164303.json','regressions/supplement/supplement-1791521145875446612.json','regressions/backend/backend.json','ui-1791521378914615275.json','windows-launch.json','clock-1791521531893363157.json'];rows=[]
+    for name in files:
+        r=json.loads((OUT/name).read_bytes());assert r['result'].startswith('PASS');rows.append(dict(file=name,result=r['result'],passed=r.get('passed',len(r['checks'])),seconds=r.get('seconds')))
+    report=dict(result='PASS_DECLARED_REPAIR_AUTOMATION_LEGACY_RECOVERY_BLOCKED',final_checks=sum(x['passed'] for x in rows),cohorts=rows,original_human_attempt='FAILED',original_payment='CONFIRMED_LOCAL, ten confirmations and unlocked; no service',original_recovery='PAID_NO_ENTITLEMENT / LEGACY_UNPROVEN; operator resolution pending',original_files='Unchanged; no additional payment or original DB migration',repeated_human_acceptance='PENDING',retained_failures={'late-confirmation-before.json':'Product regression reproduced with actual payment; repaired path covered by final boundary suite','tests-1791520919809861558.json':'Harness changed provider port on restart, invalidating its own retrieval endpoint; fixed static port per home','tests-1791520958871559377.json':'Harness Git read omitted explicit WSL work-tree; fixed without changing product expectations'},earlier_successes_excluded=['late-confirmation-after.json','regressions/core/attempt-1791521018222150859.json'],scope='Checks are not independent transaction counts, human acceptance, formal proof or security audit. Every actual payment was confined to fresh disposable test fixtures. Earlier and failed evidence retained unchanged.')
+    report['intermediate_summary_preserved']='summary.json: 206 checks before explicit future-block timestamp test'
+    path=OUT/'final-summary.json';assert not path.exists();path.write_bytes(json.dumps(report,indent=2).encode()+b'\n');print(report['result'],report['final_checks'])

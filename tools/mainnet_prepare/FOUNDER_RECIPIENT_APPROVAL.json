@@ -1,0 +1,112 @@
+{
+  "format": "PC_OWNER_FOUNDER_RECIPIENT_APPROVAL_V1",
+  "status": "OWNER_APPROVED_PUBLIC_RECIPIENT",
+  "decision_date": "2026-10-14",
+  "authority": "EXPLICIT_OWNER_INSTRUCTION_IN_THIS_CONVERSATION",
+  "public_record_sha256": "c405c6529043fa287d61eead0a6c2ad6b6a1020c9acf2e414957ec3efe643069",
+  "public_record_evidence": "docs/evidence/network-v1-founder-recipient-approval-20261014/PUBLIC-RECIPIENT.json",
+  "specification_sha256": "67036217d08417ca8d996f2fd807d0a171b5d849e53fb7901225feeffddbaa04",
+  "network_tag": "70eb24485a2e0101084886506af311094a803af7b1392724a93d210cbb4850b0",
+  "public_spend": "5fcff1410c41153913ac5c2cf5f93f734a8d6d2a0a7a4e3fc84bb369d3a61c58",
+  "public_view": "4e029f965f8cd4f0bf3b9f4492bbf3683743b1463232fb1217b2c3db8f42d891",
+  "purpose": "OWNER",
+  "subaddress": false,
+  "creator_total_atomic": 159627169409884823,
+  "creator_outputs": [
+    {
+      "index": 0,
+      "atomic": 15962716940988482,
+      "unlock_height": 0
+    },
+    {
+      "index": 1,
+      "atomic": 8979028279306022,
+      "unlock_height": 65700
+    },
+    {
+      "index": 2,
+      "atomic": 8979028279306022,
+      "unlock_height": 131400
+    },
+    {
+      "index": 3,
+      "atomic": 8979028279306022,
+      "unlock_height": 197100
+    },
+    {
+      "index": 4,
+      "atomic": 8979028279306022,
+      "unlock_height": 262800
+    },
+    {
+      "index": 5,
+      "atomic": 8979028279306022,
+      "unlock_height": 328500
+    },
+    {
+      "index": 6,
+      "atomic": 8979028279306021,
+      "unlock_height": 394200
+    },
+    {
+      "index": 7,
+      "atomic": 8979028279306021,
+      "unlock_height": 459900
+    },
+    {
+      "index": 8,
+      "atomic": 8979028279306021,
+      "unlock_height": 525600
+    },
+    {
+      "index": 9,
+      "atomic": 8979028279306021,
+      "unlock_height": 591300
+    },
+    {
+      "index": 10,
+      "atomic": 8979028279306021,
+      "unlock_height": 657000
+    },
+    {
+      "index": 11,
+      "atomic": 8979028279306021,
+      "unlock_height": 722700
+    },
+    {
+      "index": 12,
+      "atomic": 8979028279306021,
+      "unlock_height": 788400
+    },
+    {
+      "index": 13,
+      "atomic": 8979028279306021,
+      "unlock_height": 854100
+    },
+    {
+      "index": 14,
+      "atomic": 8979028279306021,
+      "unlock_height": 919800
+    },
+    {
+      "index": 15,
+      "atomic": 8979028279306021,
+      "unlock_height": 985500
+    },
+    {
+      "index": 16,
+      "atomic": 8979028279306021,
+      "unlock_height": 1051200
+    }
+  ],
+  "recipient_selected": true,
+  "production_genesis_construction_authorized": false,
+  "production_genesis_approved": false,
+  "publication_authorized": false,
+  "mainnet_activation_authorized": false,
+  "independent_security_review_waived": false,
+  "ownership_evidence": "OWNER_REPORTED_CREATION_AND_TWO_MATCHING_RECOVERIES; NATIVE_PUBLIC_POINT_VALIDITY_VERIFIED",
+  "custody_accessed": false,
+  "temporary_single_computer_custody_risk": "OWNER_ACCEPTED; PHYSICAL_BACKUP_INDEPENDENCE_NOT_VERIFIED",
+  "record_semantics": "Detached owner decision. Original public export and immutable identity remain byte-for-byte unchanged, including their historical approval flags."
+}

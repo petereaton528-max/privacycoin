@@ -1,0 +1,22 @@
+[
+  {
+    "height": 1,
+    "parent_issued": "0",
+    "subsidy": 35184372088831
+  },
+  {
+    "height": 2,
+    "parent_issued": "35184372088831",
+    "subsidy": 35184304979968
+  },
+  {
+    "height": 100,
+    "parent_issued": "3482927311770803",
+    "subsidy": 35177728932185
+  },
+  {
+    "height": 10000,
+    "parent_issued": "348475319180428115",
+    "subsidy": 34519708165224
+  }
+]

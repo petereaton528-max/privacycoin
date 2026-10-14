@@ -1,0 +1,8 @@
+add_executable(privacycoin-private-devnet "${CMAKE_CURRENT_LIST_DIR}/../../src/phase3/ledger.cpp" "${CMAKE_CURRENT_LIST_DIR}/../../src/phase3/node.cpp")
+set_target_properties(privacycoin-private-devnet PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED YES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/phase3")
+target_include_directories(privacycoin-private-devnet PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../../src" "${CMAKE_SOURCE_DIR}/src" "${CMAKE_SOURCE_DIR}/external/randomx/src" "${CMAKE_SOURCE_DIR}/external/db_drivers/liblmdb")
+target_link_libraries(privacycoin-private-devnet PRIVATE cryptonote_basic ringct randomx lmdb sodium)
+add_executable(privacycoin-spend-crypto "${CMAKE_CURRENT_LIST_DIR}/../../src/phase3/crypto.cpp")
+set_target_properties(privacycoin-spend-crypto PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED YES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/phase3")
+target_include_directories(privacycoin-spend-crypto PRIVATE "${CMAKE_SOURCE_DIR}/src")
+target_link_libraries(privacycoin-spend-crypto PRIVATE cryptonote_core ringct sodium)

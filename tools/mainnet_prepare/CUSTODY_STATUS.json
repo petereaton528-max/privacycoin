@@ -1,0 +1,23 @@
+{
+  "format": "PC_OWNER_REPORTED_CUSTODY_CHECKPOINT_V1",
+  "classification": "OWNER_REPORTED_NOT_INDEPENDENTLY_INSPECTED",
+  "owner_reports_wallet_created": true,
+  "owner_reports_two_complete_encrypted_backups": true,
+  "owner_reports_both_second_installation_recoveries_match": true,
+  "current_backup_failure_domain": "SAME_PHYSICAL_COMPUTER",
+  "verified_separate_offline_media": false,
+  "founder_recipient_selected": true,
+  "production_genesis_constructed_or_approved": true,
+  "custody_material_access_for_this_task": "PROHIBITED",
+  "next_dependency": "Final installed production RC validation and security-review disposition, then separate owner signing/publication/activation authorization. No custody access permitted.",
+  "owner_accepts_temporary_single_computer_custody_risk": true,
+  "decision_date": "2026-10-14",
+  "release_preparation_permitted": true,
+  "physically_independent_backup_claimed": false,
+  "recipient_approval_record": "tools/mainnet_prepare/FOUNDER_RECIPIENT_APPROVAL.json",
+  "proposed_production_genesis_constructed": true,
+  "production_genesis_approved": true,
+  "proposed_genesis_hash": "6233402308514d2d979a9efa9c6bd2f9843741598f1e5b18239cde16ba0d2b54",
+  "owner_reports_both_wallets_control_seventeen_outputs": true,
+  "ownership_evidence_classification": "OWNER_REPORTED"
+}

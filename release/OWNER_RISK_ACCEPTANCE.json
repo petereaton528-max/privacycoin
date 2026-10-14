@@ -1,0 +1,31 @@
+{
+  "format": "PC_RC1_OWNER_RISK_ACCEPTANCE_V1",
+  "date": "2026-10-14",
+  "authority": "Explicit owner instruction in this conversation",
+  "decision": "OWNER_ACCEPTS_DISCLOSED_RESIDUAL_RISKS",
+  "security_decision_commit": "d3486f67da2f12db5e2a92418b7bad715c32126e",
+  "engineering_checkpoint": "b23b09c8090be129da9bdea56c2a2c2d5c361874",
+  "packaged_source_commit": "429badad910e26fcbfc2d387bd3b03a0c234917d",
+  "binary_archive_sha256": "05333811876e579f175bcda70498130bb37983cc5aa6031f5293991e8fae4dc1",
+  "accepted_risks": [
+    "No independent third-party audit",
+    "Unquantified transaction anonymity",
+    "Hostile-peer and resource exhaustion limitations",
+    "Wallet, recovery and operational risks",
+    "Single-computer founder custody; physically independent backup UNVERIFIED",
+    "Undiscovered consensus or cryptographic vulnerabilities"
+  ],
+  "authorized": [
+    "Local official signing and publication preparation",
+    "Isolated public source staging and file audit",
+    "Release manifest, disclosure and unexecuted activation instructions"
+  ],
+  "not_authorized": [
+    "Production signing-key generation or use",
+    "Repository creation on GitHub, push, upload, publication or public tag/release",
+    "Mainnet node activation or public networking",
+    "Founder custody access or modification"
+  ],
+  "security_certification": false,
+  "risk_acceptance_fixes_code_defects": false
+}

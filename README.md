@@ -1,7 +1,20 @@
 # Privacy Coin 1.0.0-mainnet-rc1
 
-EARLY UNAUDITED RELEASE CANDIDATE. MAINNET IS NOT ACTIVATED.
-Publication of this RC does not authorize public nodes, Tor activation or mining.
+## Current status - October 14, 2026
+
+**Owner-authorized initial Mainnet activation occurred on October 14, 2026.**
+The owner reports that the first production block was mined at **height 1**.
+This is an **early single-node Mainnet**: independent public peer connectivity,
+continuous availability and decentralization remain **unverified**.
+
+See [MAINNET_STATUS.md](MAINNET_STATUS.md) for the launch record and public initial
+seed, and the [signed RC1 release](https://github.com/petereaton528-max/privacycoin/releases/tag/v1.0.0-mainnet-rc1)
+for the exact archives and signed checksums. RC1 remains an early unaudited release candidate.
+
+The original RC1 release notes describe their pre-activation publication checkpoint.
+Their "Mainnet not activated" language is historical; the subsequent owner-authorized
+activation is recorded in MAINNET_STATUS.md. The original release notes and signed
+artifacts are unchanged.
 
 **AI-assisted internal review only. No independent third-party security audit has been performed.**
 
@@ -52,8 +65,11 @@ python3 -m apps.network_v1.release install --archive /ABSOLUTE/PATH/privacycoin-
 ```
 
 Do not use sudo or bypass OS protections. A fresh owner-only destination is required.
-Launcher opens the local node and GUI; Tor and mining remain stopped. Do not click
-Connect Tor or start Mainnet mining pending separate activation authorization.
+Launcher opens the local node and GUI; Tor and mining remain stopped by default.
+The owner has authorized the initial Mainnet activation described above. Connecting
+Tor and starting bounded mining remain explicit user actions; installation does not
+start them automatically. Consult MAINNET_STATUS.md for the public seed and current
+limitations before choosing to participate.
 Use encrypted wallet backups and independent recovery; never send keys/passwords/
 backups to support. UNKNOWN payments require reconciliation, not blind retry.
 Do not migrate founder custody without its separate owner-only procedure.
